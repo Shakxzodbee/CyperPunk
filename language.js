@@ -503,15 +503,23 @@ function updateUI() {
     document.getElementById('ar').innerHTML = translations[currentLanguage].ar;
     document.getElementById('open').innerHTML = translations[currentLanguage].open;
     document.getElementById('opens').innerHTML = translations[currentLanguage].open;
-    document.getElementById('free').innerHTML = translations[currentLanguage].free
-
+    document.getElementById('free').innerHTML = translations[currentLanguage].free;
 
 }
+
+
+const text = document.getElementById('textgmail')
+const passwordchange = document.getElementById('textpassword')
+if(currentLanguage === 'ru'){
+    text.placeholder = 'Электронная почта'
+    passwordchange.placeholder = 'Пароль'
+}
+
 
 window.onload = updateUI;
 
 
-
+    
     // Get the modal
     var modal = document.getElementById("myModal")
 
@@ -521,10 +529,12 @@ window.onload = updateUI;
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0]
 
+    
     // When the user clicks the button, open the modal 
     btn.onclick = function () {
       modal.style.display = "block"
     }
+
 
     // When the user clicks on <span> (x), close the modal
     span.onclick = function () {
@@ -535,6 +545,7 @@ window.onload = updateUI;
     function closeModal() {
       modal.style.display = "none"
     }
+
 
     // Close modal when clicking outside of it
     window.onclick = function (event) {

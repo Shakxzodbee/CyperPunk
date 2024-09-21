@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +10,19 @@
   <link rel="stylesheet" href="phantom-liberty2-f800e381390b5cdee9f3.css">
   <link rel="shortcut icon" href="favicon.ico">
 </head>
+
 <body class="p-pl2">
   <header class="header">
     <div class="header-top">
-      <a href="#" class="header-top__logo"><img class="header-top__logo-yellow" src="home8/logo-franchise-yellow-en@1x-b4c9e65b.png" srcset="home8/logo-franchise-yellow-en@1x-b4c9e65b.png 1x, home8/logo-franchise-yellow-en@2x-ca078f31.png 2x">
-          <img class="header-top__logo-black" src="home8/logo-franchise-black-en@1x-567991b0.png" srcset="home8/logo-franchise-black-en@1x-567991b0.png 1x, home8/logo-franchise-black-en@2x-06852b64.png 2x">
+      <a href="#" class="header-top__logo"><img class="header-top__logo-yellow"
+          src="https://i.imgur.com/j3Za9uB.png"
+          srcset="https://i.imgur.com/j3Za9uB.png 1x, https://i.imgur.com/j3Za9uB.png 2x">
+        <img class="header-top__logo-black" src="https://i.imgur.com/j3Za9uB.png"
+          srcset="https://i.imgur.com/j3Za9uB.png 1x, https://i.imgur.com/j3Za9uB.png 2x">
       </a>
       <div class="menu">
         <ul class="menu-list">
-          <li class="menu-item" ><span class="menu-sub" id="greeting"></span>
+          <li class="menu-item"><span class="menu-sub" id="greeting"></span>
             <ul class="menu-sub-list">
               <li><a href="#" id="farewell"></a></li>
               <li><a href="#" id="fravel2"></a></li>
@@ -32,7 +37,7 @@
               <li><a href="#" id="buket"></a></li>
             </ul>
           </li>
-          <li class="menu-item"  id="myBtns"><a href="#" id="accaunt"></a></li>
+          <li class="menu-item" id="myBtns"><a href="#" id="accaunt"></a></li>
           <li class="menu-item menu-item-lang"><span class="menu-sub" id="change">ru</span>
             <ul class="menu-sub-list">
               <li onclick="setLanguage('en')"><a href="#" class="" id="en"></a></li>
@@ -65,70 +70,93 @@
         <div></div>
       </div>
     </div>
-    <div class="header__bg"><video poster="phantom-liberty/CP77_Phantom_Liberty_KV_16x9_RGB_no_PhL-0a5aaaf8.jpg" autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline">
-        <source src="https://cdn-l-cyberpunk.cdprojektred.com/video/CP2077_PhL_KV_Animation_1920x1080_AV1.mp4" type="video/mp4; codecs=av01.0.05M.08">
-        <source src="https://cdn-l-cyberpunk.cdprojektred.com/video/CP2077_PhL_KV_Animation_1920x1080_h264.mp4" type="video/mp4">
+    <div class="header__bg"><video poster="phantom-liberty/CP77_Phantom_Liberty_KV_16x9_RGB_no_PhL-0a5aaaf8.jpg"
+        autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline">
+        <source src="https://cdn-l-cyberpunk.cdprojektred.com/video/CP2077_PhL_KV_Animation_1920x1080_AV1.mp4"
+          type="video/mp4; codecs=av01.0.05M.08">
+        <source src="https://cdn-l-cyberpunk.cdprojektred.com/video/CP2077_PhL_KV_Animation_1920x1080_h264.mp4"
+          type="video/mp4">
       </video></div>
     <div class="header__content"><img class="header__logo" src="phantom-liberty/keyart-logo-desktop-en@1x-0e463a45.png"
         srcset="phantom-liberty/keyart-logo-desktop-en@1x-0e463a45.png 1x, phantom-liberty/keyart-logo-desktop-en@2x-ee956d11.png 2x">
       <h1 class="header__title" id="sale"></h1>
       <div class="header__buttons">
-          <a class="cp-btn cp-btn--yellow-rotated h6" href="#"><span id="buys"></span></a>
-          <a class="cp-btn cp-btn--yellow h6" href="#" target="_blank"><span id="treyler"></span></a>
-        </div>
+        <a class="cp-btn cp-btn--yellow-rotated h6" href="#"><span id="buys"></span></a>
+        <a class="cp-btn cp-btn--yellow h6" href="#" target="_blank"><span id="treyler"></span></a>
+      </div>
     </div>
 
     <div id="myModal" class="modal">
 
       <!-- Modal content -->
-<div class="div">
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close">&times;</span>
-      <h2></h2>
+      <div class="modal-overlay" id="myModal">
+        <div class="modal-content">
+            <button class="close-button" onclick="closeModal()">✖</button>
+            <div class="steam-logo">
+                <img src="https://store.steampowered.com/public/shared/images/header/logo_steam.svg?t=962016" alt="Steam">
+            </div>
+            <div class="login-title">ВОЙТИ</div>
+            <form class="login-form">
+                <input type="text" placeholder="Электронная почта" required>
+                <input type="password" placeholder="Пароль" required>
+                <button type="submit" class="login-button">
+                    <svg width="100%" height="48" viewBox="0 0 232 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="path-1-inside-1_811_35355" fill="white">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M232 0V29.8571L215.35 48H0V25H12V23H0V0H232Z"/>
+                        </mask>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M232 0V29.8571L215.35 48H0V25H12V23H0V0H232Z" fill="black" fill-opacity="0.6"/>
+                        <path d="M232 29.8571L232.737 30.5333L233 30.2465V29.8571H232ZM232 0H233V-1H232V0ZM215.35 48V49H215.79L216.087 48.6761L215.35 48ZM0 48H-1V49H0V48ZM0 25V24H-1V25H0ZM12 25V26H13V25H12ZM12 23H13V22H12V23ZM0 23H-1V24H0V23ZM0 0V-1H-1V0H0ZM233 29.8571V0H231V29.8571H233ZM216.087 48.6761L232.737 30.5333L231.263 29.181L214.613 47.3239L216.087 48.6761ZM0 49H215.35V47H0V49ZM-1 25V48H1V25H-1ZM12 24H0V26H12V24ZM11 23V25H13V23H11ZM0 24H12V22H0V24ZM-1 0V23H1V0H-1ZM232 -1H0V1H232V-1Z" fill="#FF0000" mask="url(#path-1-inside-1_811_35355)"/>
+                        <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" >ВОЙТИ</text>
+                    </svg>
+                </button>
+            </form>
+            
+            <div class="login-options">
+                <a href="#">Сброс пароля</a>
+                <a href="#">Зарегистрироваться</a>
+            </div>
+        </div>
     </div>
-    <div class="modal-body">
-      <a href="https://store.steampowered.com/agecheck/bundle/32470">STEAM</a>
-      <p>Some other text...</p>
-    </div>
-    <div class="modal-footer">
-      <h3>Modal Footer</h3>
-    </div>
-  </div>
-</div>
-    
+      </div>
+
     </div>
   </header>
 
-</div>
+  </div>
 
   <script src="./language.js"></script>
   <script>
     // Get the modal
-    var modal = document.getElementById("myModal");
-    
+    var modal = document.getElementById("myModal")
+
     // Get the button that opens the modal
-    var btn = document.getElementById("myBtns");
-    
+    var btn = document.getElementById("myBtns")
+
     // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-    
+    var span = document.getElementsByClassName("close")[0]
+
     // When the user clicks the button, open the modal 
-    btn.onclick = function() {
-      modal.style.display = "block";
+    btn.onclick = function () {
+      modal.style.display = "block"
     }
-    
+
     // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
+    span.onclick = function () {
+      modal.style.display = "none"
     }
-    
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
+    var modal = document.getElementById("myModal")
+
+    function closeModal() {
+      modal.style.display = "none"
+    }
+
+    // Close modal when clicking outside of it
+    window.onclick = function (event) {
       if (event.target == modal) {
-        modal.style.display = "none";
+        closeModal()
       }
     }
-    </script>
+  </script>
 </body>
+
 </html>

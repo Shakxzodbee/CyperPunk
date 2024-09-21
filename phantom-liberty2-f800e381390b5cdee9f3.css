@@ -15,56 +15,56 @@ span.amp {
 	font-family: BlenderProBook;
 	font-style: normal;
 	font-weight: 400;
-	src: url(BlenderPro-Book-a6763c9a.woff2) format('woff2'),
-		url(BlenderPro-Book-a7182e33.woff) format('woff');
+	src: url(./font/BlenderPro-Book-a6763c9a.woff2) format('woff2'),
+		url(./font/BlenderPro-Book-a7182e33.woff) format('woff');
 }
 
 @font-face {
 	font-family: BlenderProBold;
 	font-style: normal;
 	font-weight: 700;
-	src: url(BlenderPro-Bold-eff48238.woff2) format('woff2'),
-		url(BlenderPro-Bold-c11a01ca.woff) format('woff');
+	src: url(./font/BlenderPro-Bold-eff48238.woff2) format('woff2'),
+		url(./font/BlenderPro-Bold-c11a01ca.woff) format('woff');
 }
 
 @font-face {
 	font-family: HalisGR-Bold;
 	font-style: normal;
 	font-weight: 700;
-	src: url(hinted-HalisGR-Bold-f6020258.woff2) format('woff2'),
-		url(hinted-HalisGR-Bold-8554de68.woff) format('woff');
+	src: url(./font/hinted-HalisGR-Bold-f6020258.woff2) format('woff2'),
+		url(./font/hinted-HalisGR-Bold-8554de68.woff) format('woff');
 }
 
 @font-face {
 	font-family: HalisGR-Medium;
 	font-style: normal;
 	font-weight: 400;
-	src: url(hinted-HalisGR-Medium-53fed1cb.woff2) format('woff2'),
-		url(hinted-HalisGR-Medium-19e46d65.woff) format('woff');
+	src: url(./font/hinted-HalisGR-Medium-53fed1cb.woff2) format('woff2'),
+		url(./font/hinted-HalisGR-Medium-19e46d65.woff) format('woff');
 }
 
 @font-face {
 	font-family: ProximaNova;
 	font-style: normal;
 	font-weight: 400;
-	src: url(hinted-ProximaNova-Regular-2ccffeb5.woff2) format('woff2'),
-		url(hinted-ProximaNova-Regular-91d8c973.woff) format('woff');
+	src: url(./fonthinted-ProximaNova-Regular-2ccffeb5.woff2) format('woff2'),
+		url(./font/hinted-ProximaNova-Regular-91d8c973.woff) format('woff');
 }
 
 @font-face {
 	font-family: ProximaNova;
 	font-style: normal;
 	font-weight: 600;
-	src: url(hinted-ProximaNova-Semibold-2d0322fb.woff2) format('woff2'),
-		url(hinted-ProximaNova-Semibold-ab7618fc.woff) format('woff');
+	src: url(./font/hinted-ProximaNova-Semibold-2d0322fb.woff2) format('woff2'),
+		url(./font/hinted-ProximaNova-Semibold-ab7618fc.woff) format('woff');
 }
 
 @font-face {
 	font-family: AraESNawar;
 	font-style: normal;
 	font-weight: 400;
-	src: url(AraESNawar-Regular-2bdc6bbd.woff2) format('woff2'),
-		url(AraESNawar-Regular-d719fefc.woff) format('woff');
+	src: url(./font/AraESNawar-Regular-2bdc6bbd.woff2) format('woff2'),
+		url(./font/AraESNawar-Regular-d719fefc.woff) format('woff');
 }
 
 @font-face {
@@ -72,8 +72,8 @@ span.amp {
 	font-family: Refinery-25;
 	font-style: normal;
 	font-weight: 600;
-	src: url(Refinery-25SemiBold-dac0d12b.woff2) format('woff2'),
-		url(Refinery-25SemiBold-8a4883af.woff) format('woff');
+	src: url(./font/Refinery-25SemiBold-dac0d12b.woff2) format('woff2'),
+		url(./font/Refinery-25SemiBold-8a4883af.woff) format('woff');
 }
 
 @font-face {
@@ -81,8 +81,8 @@ span.amp {
 	font-family: NanumSquare;
 	font-style: normal;
 	font-weight: 400;
-	src: url(NanumSquareR-d3130837.woff2) format('woff2'),
-		url(NanumSquareR-da7b93c7.woff) format('woff');
+	src: url(./font/NanumSquareR-d3130837.woff2) format('woff2'),
+		url(./font/NanumSquareR-da7b93c7.woff) format('woff');
 }
 
 @font-face {
@@ -90,8 +90,8 @@ span.amp {
 	font-family: NanumSquare;
 	font-style: normal;
 	font-weight: 700;
-	src: url(NanumSquareB-10915764.woff2) format('woff2'),
-		url(NanumSquareB-ecf3d643.woff) format('woff');
+	src: url(./font/NanumSquareB-10915764.woff2) format('woff2'),
+		url(./font/NanumSquareB-ecf3d643.woff) format('woff');
 }
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */

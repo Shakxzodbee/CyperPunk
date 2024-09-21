@@ -29,6 +29,8 @@ const translations = {
         ch: 'Simplified Chinese',
         chs: 'Traditional Chinese',
         ar: 'Arabic',
+        open: 'LOGIN',
+        free: 'Play for free',
 
     },
     ru: {
@@ -61,6 +63,8 @@ const translations = {
         ch: 'Упрощенный к',
         chs: 'Традиционный к',
         ar: 'арабский',
+        open: 'ВОЙТИ',
+        free: 'Играйте бесплатно',
     },
     de: {
         greeting: "Spiele",
@@ -92,6 +96,8 @@ const translations = {
         ch: 'Vereinfachtes Ch',
         chs: 'Traditionelles Ch',
         ar: 'Arabisch',
+        open: 'offen',
+        free: 'Kostenlos spielen',
     },
     pl: {
         greeting: "Gra",
@@ -123,6 +129,8 @@ const translations = {
         ch: 'uproszczony ch',
         chs: 'Tradycyjny ch',
         ar: 'arabski',
+        open: 'OTWARTE',
+        free: 'Graj za darmo',
     },
     ptBr: {
         greeting: "Jogo",
@@ -154,6 +162,8 @@ const translations = {
         ch: 'Chinês s',
         chs: 'Chinês t',
         ar: 'árabe',
+        open: 'ABRIR',
+        free: 'Jogue de graça',
     },
     fr: {
         greeting: "Jeu",
@@ -185,6 +195,8 @@ const translations = {
         ch: 'Chinois s',
         chs: 'Chinois t',
         ar: 'arabe',
+        open: 'OUVRIR',
+        free: 'Jouer gratuitement',
     },
     es: {
         greeting: "Juego",
@@ -216,6 +228,8 @@ const translations = {
         ch: 'Chino s',
         chs: 'Chino t',
         ar: 'árabe',
+        open: 'ABIERTO',
+        free: 'Jugar gratis',
     },
     esMx: {
         greeting: "Juego",
@@ -247,6 +261,8 @@ const translations = {
         ch: 'Chino s',
         chs: 'Chino t',
         ar: 'árabe',
+        open: 'ABIERTO',
+        free: 'Jugar gratis',
     },
     it: {
         greeting: "gioco",
@@ -278,6 +294,8 @@ const translations = {
         ch: 'Cinese s',
         chs: 'Cinese t',
         ar: 'Araba',
+        open: 'APRIRE',
+        free: 'Gioca gratis',
     },
     ja: {
         greeting: "ゲーム",
@@ -309,6 +327,8 @@ const translations = {
         ch: '中国語（簡体字）',
         chs: '繁体字中国語',
         ar: 'アラビア語',
+        open: '開ける',
+        free: '無料でプレイ',
     },
     ko: {
         greeting: "게임",
@@ -340,6 +360,8 @@ const translations = {
         ch: '간체 중국어',
         chs: '중국어 번체',
         ar: '아라비아 말',
+        open: '열려 있는',
+        free: '무료로 플레이하세요',
     },
     zhCn: {
         greeting: "游戏",
@@ -371,6 +393,8 @@ const translations = {
         ch: '简体中文',
         chs: '繁体中文',
         ar: '阿拉伯',
+        open: '打开',
+        free: '免费畅玩',
     },
     zhtw: {
         greeting: "游戏",
@@ -402,6 +426,8 @@ const translations = {
         ch: '簡體中文',
         chs: '繁體中文',
         ar: '阿拉伯',
+        open: '打开',
+        free: '免费畅玩',
     },
     ar: {
         greeting: "لعبة",
@@ -433,6 +459,8 @@ const translations = {
         ch: 'الصينية المبسطة',
         chs: 'الصينية التقليدية',
         ar: 'عربي',
+        open: 'يفتح',
+        free: 'العب مجانا',
     }
 };
 
@@ -473,8 +501,32 @@ function updateUI() {
     document.getElementById('ch').innerHTML = translations[currentLanguage].ch;
     document.getElementById('chs').innerHTML = translations[currentLanguage].chs;
     document.getElementById('ar').innerHTML = translations[currentLanguage].ar;
-    
+    document.getElementById('open').innerHTML = translations[currentLanguage].open;
+    document.getElementById('opens').innerHTML = translations[currentLanguage].open;
+    document.getElementById('free').innerHTML = translations[currentLanguage].free
+
 
 }
 
 window.onload = updateUI;
+
+
+
+// const link = document.getElementById('myLinkerror');
+// const modal = document.getElementById('myModals');
+// const closeBtn = document.getElementsByClassName('closes')[0];
+
+// link.addEventListener('click', function(event) {
+//     event.preventDefault(); // Havola standart harakatini to'xtatish
+//     modal.style.display = 'block'; // Modalni ko'rsatish
+// });
+
+// closeBtn.addEventListener('click', function() {
+//     modal.style.display = 'none'; // Modalni yashirish
+// });
+
+// window.addEventListener('click', function(event) {
+//     if (event.target === modal) {
+//         modal.style.display = 'none'; // Modalni tashqaridan bosilganda yashirish
+//     }
+// });

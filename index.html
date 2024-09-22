@@ -66,7 +66,7 @@
           <source src="https://cdn-l-cyberpunk.cdprojektred.com/video/CP2077_PhL_KV_Animation_1920x1080_AV1.mp4" type="video/mp4; codecs=av01.0.05M.08">
           <source src="https://cdn-l-cyberpunk.cdprojektred.com/video/CP2077_PhL_KV_Animation_1920x1080_h264.mp4" type="video/mp4">
         </video></div>
-      <div class="header__content"><img class="header__logo" src="https://i.imgur.com/vNBZEe9.png" srcset="https://i.imgur.com/vNBZEe9.png 1x, https://i.imgur.com/swcCgza.png 2x">
+      <div class="header__content" id="headerLogo"><img class="header__logo" src="https://i.imgur.com/vNBZEe9.png" srcset="https://i.imgur.com/vNBZEe9.png 1x, https://i.imgur.com/swcCgza.png 2x">
         <h1 class="header__title" id="sale"></h1>
         <div class="header__buttons">
           <a class="cp-btn cp-btn--yellow-rotated h6" href="#"><span id="buys"></span></a>
@@ -96,17 +96,13 @@
           </div>
         </div>
       </div>
-      <div class="box">
-        <a class="button" href="#popup1">Let me Pop up</a>
-      </div>
-      
       <div id="popup1" class="overlay">
         <div class="popup">
-          <h2>создать учётную запись </h2>
-          <a class="close" href="#">&times;</a>
+          <h2 id="popuptitle"></h2>
+          <a class="close" href="#" id="closebtn">&times;</a>
           <div class="contents">
             <select id="countrySelect">
-              <option value="" id="option">Choose a country...</option>
+              <option value="" id="option"></option>
           </select>
           <input type="text" placeholder="Aдрес электронный почты " class="create-input">
           <div class="d-flex">
@@ -117,37 +113,27 @@
           <input type="password" id="textpasswordss" class="create-input">
           <div class="d-flex" style="width: 72%;">
             <input type="radio" class="radio-input">
-            <p style="color: #fff; text-align: left; margin-left: 10px;">Присылать мне новости новости , опросы и специальные предложения от супернет Games </p>
+            <p style="color: #fff; text-align: left; margin-left: 10px;" id="radio-p"></p>
           </div>
           <div class="d-flex" style="width: 72%;">
             <input type="radio" class="radio-input">
-            <p style="color: #fff; text-align: left; margin-left: 10px;">Я прочитал(-а) и принимаю  условия предоставления услуг . </p>
+            <p style="color: #fff; text-align: left; margin-left: 10px;" id="radio-pp"></p>
           </div>
-          <button type="submit" class="login-button" id="opens" style="width: 72%; border-radius:5px;">Пропустить</button>
+          <button type="submit" class="login-button" id="submitbtn" style="width: 72%; border-radius:5px;"></button>
           </div>
         </div>
       </div>
       <div id="popup2" class="overlay">
         <div class="popup">
-          <h2>создать учётную запись </h2>
-          <a class="close" href="#">&times;</a>
+          <h2 id="popupt"></h2>
+          <a class="close" href="#" id="closebtns">&times;</a>
           <div class="contents">
-          <input type="text" placeholder="Aдрес электронный почты " class="create-input">
-          <div class="d-flex">
-            <input type="text" placeholder="Имя" class="nameinput">
-            <input type="text" placeholder="Фамилия" class="surnameinput">
-          </div>
-          <input type="text" placeholder="Oтображаемое имя" class="create-input">
-          <input type="password" id="textpasswordss" class="create-input">
-          <div class="d-flex" style="width: 72%;">
-            <input type="radio" class="radio-input">
-            <p style="color: #fff; text-align: left; margin-left: 10px;">Присылать мне новости новости , опросы и специальные предложения от супернет Games </p>
-          </div>
-          <div class="d-flex" style="width: 72%;">
-            <input type="radio" class="radio-input">
-            <p style="color: #fff; text-align: left; margin-left: 10px;">Я прочитал(-а) и принимаю  условия предоставления услуг . </p>
-          </div>
-          <button type="submit" class="login-button" id="opens" style="width: 72%; border-radius:5px;">Пропустить</button>
+          <p style="color: #fff; text-align: left; width: 70%; margin: auto; margin-top: 20px;" class="conectp"></p>
+          <form class="login-form" style="margin-top: 20px;">
+            <input id="textgmails" type="email" required>
+            <button type="submit" class="login-button" id="openss"></button>
+            <button type="submit" class="login-button" id="loginbutton"></button>
+          </form>
           </div>
         </div>
       </div>

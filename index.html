@@ -1,104 +1,104 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Вселенная Cyberpunk 2077</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body class="p-pl2">
-  <header class="header">
-    <div class="header-top">
-      <a href="#" class="header-top__logo"><img class="header-top__logo-yellow" src="https://i.imgur.com/j3Za9uB.png" srcset="https://i.imgur.com/j3Za9uB.png 1x, https://i.imgur.com/j3Za9uB.png 2x">
-        <img class="header-top__logo-black" src="https://i.imgur.com/j3Za9uB.png" srcset="https://i.imgur.com/j3Za9uB.png 1x, https://i.imgur.com/j3Za9uB.png 2x">
-      </a>
-      <div class="menu">
-        <ul class="menu-list">
-          <li class="menu-item"><span class="menu-sub" id="greeting"></span>
-            <ul class="menu-sub-list">
-              <li><a href="#" id="farewell"></a></li>
-              <li><a href="#" id="fravel2"></a></li>
-            </ul>
-          </li>
-          <li class="menu-item"><span class="menu-sub" id="community"></span>
-            <ul class="menu-sub-list">
-              <li><a href="#" id="forum"></a></li>
-              <li><a href="#" id="discord"></a></li>
-              <li><a href="#" id="material"></a></li>
-              <li><a href="#" id="kankulator"></a></li>
-              <li><a href="#" id="buket"></a></li>
-            </ul>
-          </li>
-          <li class="menu-item" id="myBtns"><a href="#" id="accaunt"></a></li>
-          <li class="menu-item menu-item-lang"><span class="menu-sub" id="change">ru</span>
-            <ul class="menu-sub-list">
-              <li onclick="setLanguage('en')"><a href="#" class="" id="en"></a></li>
-              <li onclick="setLanguage('ru')"><a href="#" class="active" id="ru"></a></li>
-              <li onclick="setLanguage('de')"><a href="#" class="" id="de"></a></li>
-              <li onclick="setLanguage('pl')"><a href="#" class="" id="po"></a></li>
-              <li onclick="setLanguage('ptBr')"><a href="#" class="" id="pr"></a></li>
-              <li onclick="setLanguage('fr')"><a href="#" class="" id="fr"></a></li>
-              <li onclick="setLanguage('es')"><a href="#" class="" id="es"></a></li>
-              <li onclick="setLanguage('esMx')"><a href="#" class="" id="esp"></a></li>
-              <li onclick="setLanguage('it')"><a href="#" class="" id="it"></a></li>
-              <li onclick="setLanguage('ja')"><a href="#" class="" id="ja"></a></li>
-              <li onclick="setLanguage('ko')"><a href="#" class="" id="ko"></a></li>
-              <li onclick="setLanguage('zhCn')"><a href="#" class="" id="ch"></a></li>
-              <li onclick="setLanguage('zhTw')"><a href="#" class="" id="chs"></a></li>
-              <li onclick="setLanguage('ar')"><a href="#" class="" id="ar"></a></li>
-            </ul>
-          </li>
-          <li class="menu-item menu-item-buy"><a href="#" id="buy"></a></li>
-        </ul>
-      </div>
-      <div class="menu-toggle">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <div class="menu-close">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
-    <div class="header__bg"><video poster="https://i.imgur.com/AZBMOGO.jpeg" autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline">
-        <source src="https://cdn-l-cyberpunk.cdprojektred.com/video/CP2077_PhL_KV_Animation_1920x1080_AV1.mp4" type="video/mp4; codecs=av01.0.05M.08">
-        <source src="https://cdn-l-cyberpunk.cdprojektred.com/video/CP2077_PhL_KV_Animation_1920x1080_h264.mp4" type="video/mp4">
-      </video></div>
-    <div class="header__content"><img class="header__logo" src="https://i.imgur.com/vNBZEe9.png" srcset="https://i.imgur.com/vNBZEe9.png 1x, https://i.imgur.com/swcCgza.png 2x">
-      <h1 class="header__title" id="sale"></h1>
-      <div class="header__buttons">
-        <a class="cp-btn cp-btn--yellow-rotated h6" href="#"><span id="buys"></span></a>
-        <a class="cp-btn cp-btn--yellow h6" href="#" target="_blank"><span id="treyler"></span></a>
-      </div>
-    </div>
-    <div id="myModal" class="modal">
-      <div class="modal-overlay" id="myModal">
-        <div class="modal-content">
-          <button class="close-button" onclick="closeModal()">✖</button>
-          <div class="steam-logo">
-            <a href="#" class="a-teg">
-              <img src="https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react//global/steam_icon.svg" alt="Steam">
-              <h2 id="free"></h2>
-            </a>
+  <!DOCTYPE html>
+  <html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вселенная Cyberpunk 2077</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body class="p-pl2">
+    <header class="header">
+      <div class="header-top">
+        <a href="#" class="header-top__logo"><img class="header-top__logo-yellow" src="https://i.imgur.com/j3Za9uB.png" srcset="https://i.imgur.com/j3Za9uB.png 1x, https://i.imgur.com/j3Za9uB.png 2x">
+          <img class="header-top__logo-black" src="https://i.imgur.com/j3Za9uB.png" srcset="https://i.imgur.com/j3Za9uB.png 1x, https://i.imgur.com/j3Za9uB.png 2x">
+        </a>
+        <div class="menu">
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-sub" id="greeting"></span>
+              <ul class="menu-sub-list">
+                <li><a href="#" id="farewell"></a></li>
+                <li><a href="#" id="fravel2"></a></li>
+              </ul>
+            </li>
+            <li class="menu-item"><span class="menu-sub" id="community"></span>
+              <ul class="menu-sub-list">
+                <li><a href="#" id="forum"></a></li>
+                <li><a href="#" id="discord"></a></li>
+                <li><a href="#" id="material"></a></li>
+                <li><a href="#" id="kankulator"></a></li>
+                <li><a href="#" id="buket"></a></li>
+              </ul>
+            </li>
+            <li class="menu-item" id="myBtns"><a href="#" id="accaunt"></a></li>
+            <li class="menu-item menu-item-lang"><span class="menu-sub" id="change">ru</span>
+              <ul class="menu-sub-list">
+                <li onclick="setLanguage('en')"><a href="#" class="" id="en"></a></li>
+                <li onclick="setLanguage('ru')"><a href="#" class="active" id="ru"></a></li>
+                <li onclick="setLanguage('de')"><a href="#" class="" id="de"></a></li>
+                <li onclick="setLanguage('pl')"><a href="#" class="" id="po"></a></li>
+                <li onclick="setLanguage('ptBr')"><a href="#" class="" id="pr"></a></li>
+                <li onclick="setLanguage('fr')"><a href="#" class="" id="fr"></a></li>
+                <li onclick="setLanguage('es')"><a href="#" class="" id="es"></a></li>
+                <li onclick="setLanguage('esMx')"><a href="#" class="" id="esp"></a></li>
+                <li onclick="setLanguage('it')"><a href="#" class="" id="it"></a></li>
+                <li onclick="setLanguage('ja')"><a href="#" class="" id="ja"></a></li>
+                <li onclick="setLanguage('ko')"><a href="#" class="" id="ko"></a></li>
+                <li onclick="setLanguage('zhCn')"><a href="#" class="" id="ch"></a></li>
+                <li onclick="setLanguage('zhTw')"><a href="#" class="" id="chs"></a></li>
+                <li onclick="setLanguage('ar')"><a href="#" class="" id="ar"></a></li>
+              </ul>
+            </li>
+            <li class="menu-item menu-item-buy"><a href="#" id="buy"></a></li>
+          </ul>
+        </div>
+          <div class="menu-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
           </div>
-          <div class="login-title" id="open"></div>
-          <form class="login-form">
-            <input id="textgmail" type="text" required>
-            <input id="textpassword" type="password" required>
-            <button type="submit" class="login-button" id="opens"></button>
-          </form>
-          <div class="login-options">
-            <a href="#" id="recovery"></a>
-            <a href="#" id="createAccount"></a>
+          <div class="menu-close">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+      </div>
+      <div class="header__bg"><video poster="https://i.imgur.com/AZBMOGO.jpeg" autoplay="autoplay" loop="loop" muted="muted" playsinline="playsinline">
+          <source src="https://cdn-l-cyberpunk.cdprojektred.com/video/CP2077_PhL_KV_Animation_1920x1080_AV1.mp4" type="video/mp4; codecs=av01.0.05M.08">
+          <source src="https://cdn-l-cyberpunk.cdprojektred.com/video/CP2077_PhL_KV_Animation_1920x1080_h264.mp4" type="video/mp4">
+        </video></div>
+      <div class="header__content"><img class="header__logo" src="https://i.imgur.com/vNBZEe9.png" srcset="https://i.imgur.com/vNBZEe9.png 1x, https://i.imgur.com/swcCgza.png 2x">
+        <h1 class="header__title" id="sale"></h1>
+        <div class="header__buttons">
+          <a class="cp-btn cp-btn--yellow-rotated h6" href="#"><span id="buys"></span></a>
+          <a class="cp-btn cp-btn--yellow h6" href="#" target="_blank"><span id="treyler"></span></a>
+        </div>
+      </div>
+      <div id="myModal" class="modal">
+        <div class="modal-overlay" id="myModal">
+          <div class="modal-content">
+            <button class="close-button" onclick="closeModal()">✖</button>
+            <div class="steam-logo">
+              <a href="#" class="a-teg">
+                <img src="https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react//global/steam_icon.svg" alt="Steam">
+                <h2 id="free"></h2>
+              </a>
+            </div>
+            <div class="login-title" id="open"></div>
+            <form class="login-form">
+              <input id="textgmail" type="text" required>
+              <input id="textpassword" type="password" required>
+              <button type="submit" class="login-button" id="opens"></button>
+            </form>
+            <div class="login-options">
+              <a href="#" id="recovery"></a>
+              <a href="#" id="createAccount"></a>
+            </div>
           </div>
         </div>
       </div>
+      </div>
+    </header>
     </div>
-    </div>
-  </header>
-  </div>
-  <script src="./language.js"></script>
-</body>
-</html>
+    <script src="./language.js"></script>
+  </body>
+  </html> 

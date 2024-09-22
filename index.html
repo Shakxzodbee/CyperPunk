@@ -85,14 +85,69 @@
             </div>
             <div class="login-title" id="open"></div>
             <form class="login-form">
-              <input id="textgmail" type="text" required>
+              <input id="textgmail" type="email" required>
               <input id="textpassword" type="password" required>
               <button type="submit" class="login-button" id="opens"></button>
             </form>
             <div class="login-options">
-              <a href="index.html" id="recovery" class="recovery"></a>
-              <a href="index.html" id="createAccount"></a>
+              <a href="#popup2" id="recovery" class="recovery"></a>
+              <a href="#popup1" id="createAccount" class="button"></a>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <a class="button" href="#popup1">Let me Pop up</a>
+      </div>
+      
+      <div id="popup1" class="overlay">
+        <div class="popup">
+          <h2>создать учётную запись </h2>
+          <a class="close" href="#">&times;</a>
+          <div class="contents">
+            <select id="countrySelect">
+              <option value="" id="option">Choose a country...</option>
+          </select>
+          <input type="text" placeholder="Aдрес электронный почты " class="create-input">
+          <div class="d-flex">
+            <input type="text" placeholder="Имя" class="nameinput">
+            <input type="text" placeholder="Фамилия" class="surnameinput">
+          </div>
+          <input type="text" placeholder="Oтображаемое имя" class="create-input">
+          <input type="password" id="textpasswordss" class="create-input">
+          <div class="d-flex" style="width: 72%;">
+            <input type="radio" class="radio-input">
+            <p style="color: #fff; text-align: left; margin-left: 10px;">Присылать мне новости новости , опросы и специальные предложения от супернет Games </p>
+          </div>
+          <div class="d-flex" style="width: 72%;">
+            <input type="radio" class="radio-input">
+            <p style="color: #fff; text-align: left; margin-left: 10px;">Я прочитал(-а) и принимаю  условия предоставления услуг . </p>
+          </div>
+          <button type="submit" class="login-button" id="opens" style="width: 72%; border-radius:5px;">Пропустить</button>
+          </div>
+        </div>
+      </div>
+      <div id="popup2" class="overlay">
+        <div class="popup">
+          <h2>создать учётную запись </h2>
+          <a class="close" href="#">&times;</a>
+          <div class="contents">
+          <input type="text" placeholder="Aдрес электронный почты " class="create-input">
+          <div class="d-flex">
+            <input type="text" placeholder="Имя" class="nameinput">
+            <input type="text" placeholder="Фамилия" class="surnameinput">
+          </div>
+          <input type="text" placeholder="Oтображаемое имя" class="create-input">
+          <input type="password" id="textpasswordss" class="create-input">
+          <div class="d-flex" style="width: 72%;">
+            <input type="radio" class="radio-input">
+            <p style="color: #fff; text-align: left; margin-left: 10px;">Присылать мне новости новости , опросы и специальные предложения от супернет Games </p>
+          </div>
+          <div class="d-flex" style="width: 72%;">
+            <input type="radio" class="radio-input">
+            <p style="color: #fff; text-align: left; margin-left: 10px;">Я прочитал(-а) и принимаю  условия предоставления услуг . </p>
+          </div>
+          <button type="submit" class="login-button" id="opens" style="width: 72%; border-radius:5px;">Пропустить</button>
           </div>
         </div>
       </div>
@@ -101,5 +156,6 @@
     </div>
     <script src="./language.js"></script>
     <script src="./modal.js"></script>
+    <script src="./api.js"></script>
   </body>
   </html>

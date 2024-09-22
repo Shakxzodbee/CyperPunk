@@ -561,8 +561,9 @@ function updateUI() {
     document.getElementById('free').innerHTML = translations[currentLanguage].free;
     document.getElementById('textgmail').placeholder = translations[currentLanguage].firstinput;
     document.getElementById('textpassword').placeholder = translations[currentLanguage].secondinput;
+    document.getElementById('textpasswordss').placeholder = translations[currentLanguage].secondinput;
     document.getElementById('recovery').innerHTML = translations[currentLanguage].recovery;
-    document.getElementById('createAccount').innerHTML = translations[currentLanguage].create
+    document.getElementById('createAccount').innerHTML = translations[currentLanguage].create;
 }
 
 

@@ -1,33 +1,30 @@
-    // Get the modal
-    var modal = document.getElementById("myModal")
-
-    // Get the button that opens the modal
-    var btn = document.getElementById("myBtns")
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0]
-
-    
-    // When the user clicks the button, open the modal 
-    btn.onclick = function () {
+  let modal = document.getElementById("myModal")
+  let btn = document.getElementById("myBtns")
+  let span = document.getElementsByClassName("close")[0]
+  let create = document.getElementById('createAccount')
+  let recovery = document.getElementById('recovery')
+  let headerContent = document.getElementsByClassName('header__logo')
+  btn.onclick = function () {
       modal.style.display = "block"
-    }
+  }
 
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function () {
+  span.onclick = function () {
       modal.style.display = "none"
-    }
-    var modal = document.getElementById("myModal")
-
-    function closeModal() {
+  }
+  
+  function closeModal() {
       modal.style.display = "none"
-    }
+  }
 
+  recovery.onclick = function (){
+    modal.style.display = "none"
+  }
+  create.onclick = function (){
+    modal.style.display = "none"
+  }
 
-    // Close modal when clicking outside of it
-    window.onclick = function (event) {
+  window.onclick = function (event) {
       if (event.target == modal) {
         closeModal()
       }
-    }
+  }

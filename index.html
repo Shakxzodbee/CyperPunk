@@ -100,46 +100,5 @@
   </header>
   </div>
   <script src="./language.js"></script>
-  <script>
-    // Modal elementlarini olish
-    const firstModal = document.getElementById('firstModal');
-    const secondModal = document.getElementById('secondModal');
-
-    // Birinchi modalni ochish
-    document.getElementById('openFirstModal').onclick = function() {
-        firstModal.style.display = 'block';
-    }
-
-    // Birinchi modalni yopish
-    document.getElementById('closeFirstModal').onclick = function() {
-        firstModal.style.display = 'none';
-    }
-
-    // Ikkinchi modalni ochish va birinchisini yopish
-    document.getElementById('openSecondModal').onclick = function() {
-        firstModal.style.display = 'none';
-        secondModal.style.display = 'block';
-    }
-
-    // Ikkinchi modalni yopish
-    document.getElementById('closeSecondModal').onclick = function() {
-        secondModal.style.display = 'none';
-    }
-
-    // Ikkinchi modalni yopish tugmasi
-    document.getElementById('closeSecondModalButton').onclick = function() {
-        secondModal.style.display = 'none';
-    }
-
-    // Modalni yopish uchun tashqariga bosilganda
-    window.onclick = function(event) {
-        if (event.target === firstModal) {
-            firstModal.style.display = 'none';
-        }
-        if (event.target === secondModal) {
-            secondModal.style.display = 'none';
-        }
-    }
-</script>
 </body>
 </html>

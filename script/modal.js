@@ -5,13 +5,14 @@ let headerLogo = document.getElementById('headerLogo');
 let returnbtn = document.getElementById('loginbutton')
 let create = document.getElementById('createAccount')
 let span = document.getElementsByClassName("close")[0]
+let secondbtn = document.getElementById('myBtnss')
 let recovery = document.getElementById('recovery')
 let spans = document.getElementById('closebtns')
 let spanss = document.getElementById('closebtn')
 let modal = document.getElementById("myModal")
 let popup = document.getElementById('popup2')
 let btn = document.getElementById("myBtns")
-
+let treyler = document.getElementById('mybtn')
 
   returnbtn.onclick = function(){
     modal.style.display = "block"
@@ -20,6 +21,12 @@ let btn = document.getElementById("myBtns")
   }
   btn.onclick = function () {
       modal.style.display = "block"
+  }
+  secondbtn.onclick = function (){
+    modal.style.display = 'block'
+  }
+  treyler.onclick = function (){
+    modal.style.display = 'block'
   }
   span.onclick = function () {
       modal.style.display = "none"
@@ -53,11 +60,7 @@ let btn = document.getElementById("myBtns")
   })
 
 
-  if(ateg.click){
-  }else{
-    headerLogo.display.style = 'none'
-  }
-  
+
   ateg.addEventListener('click',()=>{
     headerLogo.display.style = 'block'
   })

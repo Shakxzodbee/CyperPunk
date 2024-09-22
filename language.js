@@ -31,7 +31,8 @@ const translations = {
         ar: 'Arabic',
         open: 'LOGIN',
         free: 'Play for free',
-
+        firstinput : 'E-mail',
+        secondinput : 'Password',
     },
     ru: {
         greeting: "Игры",
@@ -65,6 +66,8 @@ const translations = {
         ar: 'арабский',
         open: 'ВОЙТИ',
         free: 'Играйте бесплатно',
+        firstinput : 'Электронная почта',
+        secondinput : 'Пароль',
     },
     de: {
         greeting: "Spiele",
@@ -98,6 +101,8 @@ const translations = {
         ar: 'Arabisch',
         open: 'offen',
         free: 'Kostenlos spielen',
+        firstinput: 'E-Mail',
+        secondinput: 'Passwort',
     },
     pl: {
         greeting: "Gra",
@@ -131,6 +136,8 @@ const translations = {
         ar: 'arabski',
         open: 'OTWARTE',
         free: 'Graj za darmo',
+        firstinput: 'E-mail',
+        secondinput: 'Hasło',
     },
     ptBr: {
         greeting: "Jogo",
@@ -164,6 +171,8 @@ const translations = {
         ar: 'árabe',
         open: 'ABRIR',
         free: 'Jogue de graça',
+        firstinput: 'e-mail',
+        secondinput: 'Senha',
     },
     fr: {
         greeting: "Jeu",
@@ -197,6 +206,8 @@ const translations = {
         ar: 'arabe',
         open: 'OUVRIR',
         free: 'Jouer gratuitement',
+        firstinput: 'Entrez une adresse e-mail',
+        secondinput: 'Mot de passe',
     },
     es: {
         greeting: "Juego",
@@ -230,6 +241,8 @@ const translations = {
         ar: 'árabe',
         open: 'ABIERTO',
         free: 'Jugar gratis',
+        firstinput: 'Introduce tu correo electrónico',
+        secondinput: 'contraseña',
     },
     esMx: {
         greeting: "Juego",
@@ -263,6 +276,8 @@ const translations = {
         ar: 'árabe',
         open: 'ABIERTO',
         free: 'Jugar gratis',
+        firstinput: 'Introduce tu correo electrónico',
+        secondinput: 'contraseña',
     },
     it: {
         greeting: "gioco",
@@ -296,6 +311,8 @@ const translations = {
         ar: 'Araba',
         open: 'APRIRE',
         free: 'Gioca gratis',
+        firstinput: 'Inserisci la tua email',
+        secondinput: 'password',
     },
     ja: {
         greeting: "ゲーム",
@@ -329,6 +346,8 @@ const translations = {
         ar: 'アラビア語',
         open: '開ける',
         free: '無料でプレイ',
+        firstinput: 'メールアドレスを入力してください',
+        secondinput: 'パスワード',
     },
     ko: {
         greeting: "게임",
@@ -362,6 +381,8 @@ const translations = {
         ar: '아라비아 말',
         open: '열려 있는',
         free: '무료로 플레이하세요',
+        firstinput: '이메일을 입력하세요',
+        secondinput: '비밀번호',
     },
     zhCn: {
         greeting: "游戏",
@@ -395,6 +416,8 @@ const translations = {
         ar: '阿拉伯',
         open: '打开',
         free: '免费畅玩',
+        firstinput: '输入您的电子邮件',
+        secondinput: '输入您的密码',
     },
     zhtw: {
         greeting: "游戏",
@@ -428,6 +451,8 @@ const translations = {
         ar: '阿拉伯',
         open: '打开',
         free: '免费畅玩',
+        firstinput: '输入您的电子邮件',
+        secondinput: '输入您的密码',
     },
     ar: {
         greeting: "لعبة",
@@ -461,6 +486,8 @@ const translations = {
         ar: 'عربي',
         open: 'يفتح',
         free: 'العب مجانا',
+        firstinput: 'أدخل بريدك الإلكتروني',
+        secondinput: 'أدخل كلمة المرور الخاصة بك',
     }
 };
 
@@ -504,21 +531,11 @@ function updateUI() {
     document.getElementById('open').innerHTML = translations[currentLanguage].open;
     document.getElementById('opens').innerHTML = translations[currentLanguage].open;
     document.getElementById('free').innerHTML = translations[currentLanguage].free;
-
+    document.getElementById('textgmail').placeholder = translations[currentLanguage].firstinput;
+    document.getElementById('textpassword').placeholder = translations[currentLanguage].secondinput;
 }
-
-
-const text = document.getElementById('textgmail')
-const passwordchange = document.getElementById('textpassword')
-if(currentLanguage === 'ru'){
-    text.placeholder = 'Электронная почта'
-    passwordchange.placeholder = 'Пароль'
-}
-
 
 window.onload = updateUI;
-
-
     
     // Get the modal
     var modal = document.getElementById("myModal")

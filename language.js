@@ -33,6 +33,8 @@ const translations = {
         free: 'Play for free',
         firstinput : 'E-mail',
         secondinput : 'Password',
+        recovery: 'reset password',
+        create: 'create an account',
     },
     ru: {
         greeting: "Игры",
@@ -68,6 +70,8 @@ const translations = {
         free: 'Играйте бесплатно',
         firstinput : 'Электронная почта',
         secondinput : 'Пароль',
+        recovery: 'сброс пароля ',
+        create: 'создать учётную запись',
     },
     de: {
         greeting: "Spiele",
@@ -103,6 +107,8 @@ const translations = {
         free: 'Kostenlos spielen',
         firstinput: 'E-Mail',
         secondinput: 'Passwort',
+        recovery: 'Passwort zurücksetzen',
+        create: 'ein Konto erstellen',
     },
     pl: {
         greeting: "Gra",
@@ -138,6 +144,8 @@ const translations = {
         free: 'Graj za darmo',
         firstinput: 'E-mail',
         secondinput: 'Hasło',
+        recovery: 'zresetuj hasło',
+        create: 'Utwórz konto',
     },
     ptBr: {
         greeting: "Jogo",
@@ -173,6 +181,8 @@ const translations = {
         free: 'Jogue de graça',
         firstinput: 'e-mail',
         secondinput: 'Senha',
+        recovery: 'redefinir senha',
+        create: 'Criar uma conta',
     },
     fr: {
         greeting: "Jeu",
@@ -208,6 +218,8 @@ const translations = {
         free: 'Jouer gratuitement',
         firstinput: 'Entrez une adresse e-mail',
         secondinput: 'Mot de passe',
+        recovery: 'réinitialiser le mot de passe',
+        create: 'créer un compte',
     },
     es: {
         greeting: "Juego",
@@ -243,6 +255,8 @@ const translations = {
         free: 'Jugar gratis',
         firstinput: 'Introduce tu correo electrónico',
         secondinput: 'contraseña',
+        recovery: 'restablecer contraseña',
+        create: 'Crear una cuenta',
     },
     esMx: {
         greeting: "Juego",
@@ -278,6 +292,8 @@ const translations = {
         free: 'Jugar gratis',
         firstinput: 'Introduce tu correo electrónico',
         secondinput: 'contraseña',
+        recovery: 'restablecer contraseña',
+        create: 'Crear una cuenta',
     },
     it: {
         greeting: "gioco",
@@ -313,6 +329,8 @@ const translations = {
         free: 'Gioca gratis',
         firstinput: 'Inserisci la tua email',
         secondinput: 'password',
+        recovery: 'Reimposta password',
+        create: 'creare un account',
     },
     ja: {
         greeting: "ゲーム",
@@ -348,6 +366,8 @@ const translations = {
         free: '無料でプレイ',
         firstinput: 'メールアドレスを入力してください',
         secondinput: 'パスワード',
+        recovery: 'パスワードをリセット',
+        create: 'アカウントを作成する',
     },
     ko: {
         greeting: "게임",
@@ -383,6 +403,8 @@ const translations = {
         free: '무료로 플레이하세요',
         firstinput: '이메일을 입력하세요',
         secondinput: '비밀번호',
+        recovery: '비밀번호 재설정',
+        create: '계정을 생성하다',
     },
     zhCn: {
         greeting: "游戏",
@@ -418,6 +440,8 @@ const translations = {
         free: '免费畅玩',
         firstinput: '输入您的电子邮件',
         secondinput: '输入您的密码',
+        recovery: '重置密码',
+        create: '创建一个帐户',
     },
     zhtw: {
         greeting: "游戏",
@@ -453,6 +477,8 @@ const translations = {
         free: '免费畅玩',
         firstinput: '输入您的电子邮件',
         secondinput: '输入您的密码',
+        recovery: '重置密码',
+        create: '创建一个帐户',
     },
     ar: {
         greeting: "لعبة",
@@ -488,6 +514,8 @@ const translations = {
         free: 'العب مجانا',
         firstinput: 'أدخل بريدك الإلكتروني',
         secondinput: 'أدخل كلمة المرور الخاصة بك',
+        recovery: 'إعادة تعيين كلمة المرور',
+        create: 'إنشاء حساب',
     }
 };
 
@@ -533,6 +561,8 @@ function updateUI() {
     document.getElementById('free').innerHTML = translations[currentLanguage].free;
     document.getElementById('textgmail').placeholder = translations[currentLanguage].firstinput;
     document.getElementById('textpassword').placeholder = translations[currentLanguage].secondinput;
+    document.getElementById('recovery').innerHTML = translations[currentLanguage].recovery;
+    document.getElementById('createAccount').innerHTML = translations[currentLanguage].create
 }
 
 window.onload = updateUI;

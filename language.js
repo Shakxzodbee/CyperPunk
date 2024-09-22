@@ -792,13 +792,9 @@ function updateUI() {
     document.getElementById('openss').innerHTML = translations[currentLanguage].openss;
     document.getElementById('loginbutton').innerHTML = translations[currentLanguage].loginbutton;
     document.getElementById('textgmails').placeholder = translations[currentLanguage].mailinput;
-
     document.getElementById('returninput').placeholder = translations[currentLanguage].returninput;
     document.getElementById('textpaswordss').placeholder = translations[currentLanguage].returninput;
     document.getElementById('connectp').innerHTML = translations[currentLanguage].connectp;
     document.getElementById('surnameinput').placeholder = translations[currentLanguage].surnameinput;
 }
-
-
-
 window.onload = updateUI;

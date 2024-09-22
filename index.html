@@ -155,5 +155,20 @@
     <script src="./language.js"></script>
     <script src="./modal.js"></script>
     <script src="./api.js"></script>
+    <script src="">
+       function toggleListItems() {
+    var menu = document.querySelector('#change');
+    if (menu.style.display === 'none') {
+      menu.style.display = 'block';
+    } else {
+      menu.style.display = 'none';
+    }
+  menu.addEventListener('click', ()=>{
+    menu.style.display = 'block'
+  })
+  }
+  
+
+    </script>
   </body>
   </html>

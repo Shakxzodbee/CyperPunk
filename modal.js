@@ -1,5 +1,6 @@
 let headerContent = document.getElementsByClassName('header__logo')
 let recoveryButton = document.getElementById('recovery');
+let ateg = document.getElementsByClassName('steam-logo')
 let headerLogo = document.getElementById('headerLogo');
 let returnbtn = document.getElementById('loginbutton')
 let create = document.getElementById('createAccount')
@@ -20,15 +21,16 @@ let btn = document.getElementById("myBtns")
   btn.onclick = function () {
       modal.style.display = "block"
   }
-
   span.onclick = function () {
       modal.style.display = "none"
-  }
-  
-  function closeModal() {
-      modal.style.display = "none"
+      headerLogo.style.display = 'block'
   }
 
+  function closeModal() {
+      modal.style.display = "none"
+      headerLogo.style.display = 'block'
+
+  }
   recovery.onclick = function (){
     modal.style.display = "none"
   }
@@ -48,4 +50,14 @@ let btn = document.getElementById("myBtns")
   });
   spans.addEventListener('click', ()=>{
     headerLogo.style.display = 'block'
+  })
+
+
+  if(ateg.click){
+  }else{
+    headerLogo.display.style = 'none'
+  }
+  
+  ateg.addEventListener('click',()=>{
+    headerLogo.display.style = 'block'
   })

@@ -757,6 +757,8 @@ function updateUI() {
     document.getElementById('open').innerHTML = translations[currentLanguage].open;
     document.getElementById('opens').innerHTML = translations[currentLanguage].open;
     document.getElementById('free').innerHTML = translations[currentLanguage].free;
+    document.getElementById('freez').innerHTML = translations[currentLanguage].free;
+    document.getElementById('frees').innerHTML = translations[currentLanguage].free;
     document.getElementById('textgmail').placeholder = translations[currentLanguage].firstinput;
     document.getElementById('textpassword').placeholder = translations[currentLanguage].secondinput;
     document.getElementById('textpasswordss').placeholder = translations[currentLanguage].secondinput;

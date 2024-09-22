@@ -35,22 +35,22 @@ const translations = {
         secondinput : 'Password',
         recovery: 'reset password',
         create: 'create an account',
-        option: 'select a language',
-        mailinput: 'Email address',
+        popuptitle: 'Create an account',
+        option: 'Chooise language...',
+        mailinput: 'E-mail',
         nameinput: 'Name',
-        surnameinput: 'Surename',
-        returnname: 'Display name',
         textpasswordss: 'password',
-        submitbtn: 'continue',
-        popuptitle: 'create an account',
-        radiopteg: 'Contact me for news, surveys and special offers from Epic Games',
+        surnameinput: 'Surname',
+        returnname: 'Display name',
+        radiop: 'Send me news, surveys and special offers from Cypernet Games',
         radiopp: 'I have read and accept , terms of service',
-        radilink: 'terms of service',
-
-        popupt: 'lorem',
-        conectp: 'aerg',
-        openss: 'Choo',
-        loginbutton: 'earg'
+        radiolink: 'terms of service',
+        submitbtn: 'continue',
+        popupt: 'Reset password',
+        conectp: 'To receive a security code, please enter the email address of your Cypernet Games account',
+        openss: 'Continue',
+        loginbutton: 'return to login page',
+        
     },
     ru: {
         greeting: "Игры",
@@ -88,7 +88,20 @@ const translations = {
         secondinput : 'Пароль',
         recovery: 'сброс пароля ',
         create: 'создать учётную запись',
-
+        popuptitle: 'aerg',
+        option: 'gaer',
+        mailinput: 'Aдрес электронный почты ',
+        nameinput: 'Имя',
+        surnameinput: 'Фамилия',
+        returnname: 'Oтображаемое имя',
+        textpasswordss: 'password',
+        radiop: 'aert',
+        radiopp: 'gae',
+        submitbtn: 'submit',
+        popupt: 'lorem',
+        conectp: 'aerg',
+        openss: 'gaer',
+        loginbutton: 'earg'
     },
     de: {
         greeting: "Spiele",
@@ -126,7 +139,20 @@ const translations = {
         secondinput: 'Passwort',
         recovery: 'Passwort zurücksetzen',
         create: 'ein Konto erstellen',
-
+        popuptitle: 'aerg',
+        option: 'gaer',
+        mailinput: 'Aдрес электронный почты ',
+        nameinput: 'Имя',
+        surnameinput: 'Фамилия',
+        returnname: 'Oтображаемое имя',
+        textpasswordss: 'password',
+        radiop: 'aert',
+        radiopp: 'gae',
+        submitbtn: 'submit',
+        popupt: 'lorem',
+        conectp: 'aerg',
+        openss: 'gaer',
+        loginbutton: 'earg'
     },
     pl: {
         greeting: "Gra",
@@ -164,7 +190,20 @@ const translations = {
         secondinput: 'Hasło',
         recovery: 'zresetuj hasło',
         create: 'Utwórz konto',
-
+        popuptitle: 'aerg',
+        option: 'gaer',
+        mailinput: 'Aдрес электронный почты ',
+        nameinput: 'Имя',
+        surnameinput: 'Фамилия',
+        returnname: 'Oтображаемое имя',
+        textpasswordss: 'password',
+        radiop: 'aert',
+        radiopp: 'gae',
+        submitbtn: 'submit',
+        popupt: 'lorem',
+        conectp: 'aerg',
+        openss: 'gaer',
+        loginbutton: 'earg'
     },
     ptBr: {
         greeting: "Jogo",
@@ -202,7 +241,20 @@ const translations = {
         secondinput: 'Senha',
         recovery: 'redefinir senha',
         create: 'Criar uma conta',
-
+        popuptitle: 'aerg',
+        option: 'gaer',
+        mailinput: 'Aдрес электронный почты ',
+        nameinput: 'Имя',
+        surnameinput: 'Фамилия',
+        returnname: 'Oтображаемое имя',
+        textpasswordss: 'password',
+        radiop: 'aert',
+        radiopp: 'gae',
+        submitbtn: 'submit',
+        popupt: 'lorem',
+        conectp: 'aerg',
+        openss: 'gaer',
+        loginbutton: 'earg'
     },
     fr: {
         greeting: "Jeu",
@@ -240,7 +292,20 @@ const translations = {
         secondinput: 'Mot de passe',
         recovery: 'réinitialiser le mot de passe',
         create: 'créer un compte',
-
+        popuptitle: 'aerg',
+        option: 'gaer',
+        mailinput: 'Aдрес электронный почты ',
+        nameinput: 'Имя',
+        surnameinput: 'Фамилия',
+        returnname: 'Oтображаемое имя',
+        textpasswordss: 'password',
+        radiop: 'aert',
+        radiopp: 'gae',
+        submitbtn: 'submit',
+        popupt: 'lorem',
+        conectp: 'aerg',
+        openss: 'gaer',
+        loginbutton: 'earg'
     },
     es: {
         greeting: "Juego",
@@ -278,7 +343,20 @@ const translations = {
         secondinput: 'contraseña',
         recovery: 'restablecer contraseña',
         create: 'Crear una cuenta',
-
+        popuptitle: 'aerg',
+        option: 'gaer',
+        mailinput: 'Aдрес электронный почты ',
+        nameinput: 'Имя',
+        surnameinput: 'Фамилия',
+        returnname: 'Oтображаемое имя',
+        textpasswordss: 'password',
+        radiop: 'aert',
+        radiopp: 'gae',
+        submitbtn: 'submit',
+        popupt: 'lorem',
+        conectp: 'aerg',
+        openss: 'gaer',
+        loginbutton: 'earg'
     },
     esMx: {
         greeting: "Juego",
@@ -316,7 +394,20 @@ const translations = {
         secondinput: 'contraseña',
         recovery: 'restablecer contraseña',
         create: 'Crear una cuenta',
-
+        popuptitle: 'aerg',
+        option: 'gaer',
+        mailinput: 'Aдрес электронный почты ',
+        nameinput: 'Имя',
+        surnameinput: 'Фамилия',
+        returnname: 'Oтображаемое имя',
+        textpasswordss: 'password',
+        radiop: 'aert',
+        radiopp: 'gae',
+        submitbtn: 'submit',
+        popupt: 'lorem',
+        conectp: 'aerg',
+        openss: 'gaer',
+        loginbutton: 'earg'
     },
     it: {
         greeting: "gioco",
@@ -354,7 +445,20 @@ const translations = {
         secondinput: 'password',
         recovery: 'Reimposta password',
         create: 'creare un account',
-
+        popuptitle: 'aerg',
+        option: 'gaer',
+        mailinput: 'Aдрес электронный почты ',
+        nameinput: 'Имя',
+        surnameinput: 'Фамилия',
+        returnname: 'Oтображаемое имя',
+        textpasswordss: 'password',
+        radiop: 'aert',
+        radiopp: 'gae',
+        submitbtn: 'submit',
+        popupt: 'lorem',
+        conectp: 'aerg',
+        openss: 'gaer',
+        loginbutton: 'earg'
     },
     ja: {
         greeting: "ゲーム",
@@ -392,7 +496,20 @@ const translations = {
         secondinput: 'パスワード',
         recovery: 'パスワードをリセット',
         create: 'アカウントを作成する',
-
+        popuptitle: 'aerg',
+        option: 'gaer',
+        mailinput: 'Aдрес электронный почты ',
+        nameinput: 'Имя',
+        surnameinput: 'Фамилия',
+        returnname: 'Oтображаемое имя',
+        textpasswordss: 'password',
+        radiop: 'aert',
+        radiopp: 'gae',
+        submitbtn: 'submit',
+        popupt: 'lorem',
+        conectp: 'aerg',
+        openss: 'gaer',
+        loginbutton: 'earg'
     },
     ko: {
         greeting: "게임",
@@ -430,7 +547,20 @@ const translations = {
         secondinput: '비밀번호',
         recovery: '비밀번호 재설정',
         create: '계정을 생성하다',
-
+        popuptitle: 'aerg',
+        option: 'gaer',
+        mailinput: 'Aдрес электронный почты ',
+        nameinput: 'Имя',
+        surnameinput: 'Фамилия',
+        returnname: 'Oтображаемое имя',
+        textpasswordss: 'password',
+        radiop: 'aert',
+        radiopp: 'gae',
+        submitbtn: 'submit',
+        popupt: 'lorem',
+        conectp: 'aerg',
+        openss: 'gaer',
+        loginbutton: 'earg'
     },
     zhCn: {
         greeting: "游戏",
@@ -468,7 +598,20 @@ const translations = {
         secondinput: '输入您的密码',
         recovery: '重置密码',
         create: '创建一个帐户',
-
+        popuptitle: 'aerg',
+        option: 'gaer',
+        mailinput: 'Aдрес электронный почты ',
+        nameinput: 'Имя',
+        surnameinput: 'Фамилия',
+        returnname: 'Oтображаемое имя',
+        textpasswordss: 'password',
+        radiop: 'aert',
+        radiopp: 'gae',
+        submitbtn: 'submit',
+        popupt: 'lorem',
+        conectp: 'aerg',
+        openss: 'gaer',
+        loginbutton: 'earg'
     },
     zhtw: {
         greeting: "游戏",
@@ -506,7 +649,20 @@ const translations = {
         secondinput: '输入您的密码',
         recovery: '重置密码',
         create: '创建一个帐户',
-
+        popuptitle: 'aerg',
+        option: 'gaer',
+        mailinput: 'Aдрес электронный почты ',
+        nameinput: 'Имя',
+        surnameinput: 'Фамилия',
+        returnname: 'Oтображаемое имя',
+        textpasswordss: 'password',
+        radiop: 'aert',
+        radiopp: 'gae',
+        submitbtn: 'submit',
+        popupt: 'lorem',
+        conectp: 'aerg',
+        openss: 'gaer',
+        loginbutton: 'earg'
     },
     ar: {
         greeting: "لعبة",
@@ -544,11 +700,20 @@ const translations = {
         secondinput: 'أدخل كلمة المرور الخاصة بك',
         recovery: 'إعادة تعيين كلمة المرور',
         create: 'إنشاء حساب',
-        radiopteg: 'Contact me for news, surveys and special offers from Epic Games',
-        radiopp: 'I have read and accept',
-        radilink: 'terms of service',
-        
-
+        popuptitle: 'aerg',
+        option: 'gaer',
+        mailinput: 'Aдрес электронный почты ',
+        nameinput: 'Имя',
+        surnameinput: 'Фамилия',
+        returnname: 'Oтображаемое имя',
+        textpasswordss: 'password',
+        radiop: 'aert',
+        radiopp: 'gae',
+        submitbtn: 'submit',
+        popupt: 'lorem',
+        conectp: 'aerg',
+        openss: 'gaer',
+        loginbutton: 'earg'
     }
 };
 
@@ -597,17 +762,26 @@ function updateUI() {
     document.getElementById('textpasswordss').placeholder = translations[currentLanguage].secondinput;
     document.getElementById('recovery').innerHTML = translations[currentLanguage].recovery;
     document.getElementById('createAccount').innerHTML = translations[currentLanguage].create;
-    
-    document.getElementById('radiopteg').innerHTML = translations[currentLanguage].radiopteg;
-    document.getElementById('radiopp').innerHTML = translations[currentLanguage].radiopp;
-    document.getElementById('radiolink').innerHTML = translations[currentLanguage].radiolink;
     document.getElementById('popuptitle').innerHTML = translations[currentLanguage].popuptitle;
     document.getElementById('option').innerHTML = translations[currentLanguage].option;
     document.getElementById('mailinput').placeholder = translations[currentLanguage].mailinput;
     document.getElementById('nameinput').placeholder = translations[currentLanguage].nameinput;
-    document.getElementById('surnameinput').placeholder = translations[currentLanguage].surnameinput;
+    document.getElementById('surnameinput').placeholder =translations[currentLanguage].surnameinput;
     document.getElementById('returnname').placeholder = translations[currentLanguage].returnname;
-    document.getElementById('radilink').innerHTML = translations[currentLanguage].radilink;
+    document.getElementById('radiopteg').innerHTML = translations[currentLanguage].radiop;
+    document.getElementById('radiopp').innerHTML = translations[currentLanguage].radiopp;
+    document.getElementsByClassName('radiolink').innerHTML = translations[currentLanguage].radiolink;
+    document.getElementById('submitbtn').innerHTML = translations[currentLanguage].submitbtn;
+    document.getElementById('popupt').innerHTML = translations[currentLanguage].popupt;
+    document.getElementById('conectp').innerHTML = translations[currentLanguage].conectp;
+    document.getElementById('openss').innerHTML = translations[currentLanguage].openss;
+    document.getElementById('loginbutton').innerHTML = translations[currentLanguage].loginbutton;
+    document.getElementById('textgmails').placeholder = translations[currentLanguage].mailinput;
+
+    document.getElementById('returninput').placeholder = translations[currentLanguage].returninput;
+    document.getElementById('textpaswordss').placeholder = translations[currentLanguage].returninput;
+    document.getElementById('connectp').innerHTML = translations[currentLanguage].connectp;
+    document.getElementById('surnameinput').placeholder = translations[currentLanguage].surnameinput;
 }
 
 

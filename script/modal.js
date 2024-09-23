@@ -1,4 +1,5 @@
 let headerContent = document.getElementsByClassName('header__logo')
+let menu = document.getElementsByClassName('menu-toggle')
 let recoveryButton = document.getElementById('recovery');
 let ateg = document.getElementsByClassName('steam-logo')
 let headerLogo = document.getElementById('headerLogo');

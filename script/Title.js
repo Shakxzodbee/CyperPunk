@@ -2,5 +2,6 @@ function setWebsiteTitle(newTitle) {
     document.title = newTitle;
 }
 
-// Example usage:
+// Example usage: All language title
+
 setWebsiteTitle("Cypernet 2077");

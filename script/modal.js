@@ -11,8 +11,8 @@ let spans = document.getElementById('closebtns')
 let spanss = document.getElementById('closebtn')
 let modal = document.getElementById("myModal")
 let popup = document.getElementById('popup2')
+let treyler = document.getElementById('buy')
 let btn = document.getElementById("myBtns")
-let treyler = document.getElementById('mybtn')
 
   returnbtn.onclick = function(){
     modal.style.display = "block"

@@ -3,4 +3,4 @@ function setWebsiteTitle(newTitle) {
 }
 
 // Example usage:
-setWebsiteTitle("Cypernet");
+setWebsiteTitle("Cypernet 2077");

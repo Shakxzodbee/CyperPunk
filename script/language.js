@@ -730,7 +730,7 @@ const translations = {
     }
 };
 
-let currentLanguage = 'en';
+let currentLanguage = 'ru';
 
 function setLanguage(lang) {
     currentLanguage = lang;

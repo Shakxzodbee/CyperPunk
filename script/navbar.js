@@ -1,3 +1,5 @@
-let world = 'Hello World'
+let bars = document.querySelector('#bars')
 
-This is page to work start next day
+bars.addEventListener('click', ()=>{
+    
+})

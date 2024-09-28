@@ -18,7 +18,6 @@ let btn = document.getElementById("myBtns")
   returnbtn.onclick = function(){
     modal.style.display = "block"
     popup.style.display = "none"
-
   }
   btn.onclick = function () {
       modal.style.display = "block"

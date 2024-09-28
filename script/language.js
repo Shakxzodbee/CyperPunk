@@ -50,6 +50,8 @@ const translations = {
         conectp: 'To receive a security code, please enter the email address of your Cypernet Games account',
         openss: 'Continue',
         loginbutton: 'return to login page',
+        successMessage: 'Successful!',
+        fillFields: 'Please fill in all fields.',
         
     },
     ru: {
@@ -103,6 +105,8 @@ const translations = {
         conectp: 'Чтобы получить код безопасности, введите адрес электронной почты вашей учетной записи Cybernet Games.',
         openss: 'продолжать',
         loginbutton: 'вернуться на страницу входа',
+        successMessage: 'Успешный!',
+        fillFields: 'Пожалуйста, заполните все поля.',
     },
     de: {
         greeting: "Spiele",
@@ -155,6 +159,8 @@ const translations = {
         conectp: 'Um einen Sicherheitscode zu erhalten, geben Sie bitte die E-Mail-Adresse Ihres Cypernet Games-Kontos ein',
         openss: 'weitermachen',
         loginbutton: 'zurück zur Login-Seite',
+        successMessage: 'Erfolgreich!',
+        fillFields: 'Bitte füllen Sie alle Felder aus.',
     },
     pl: {
         greeting: "Gra",
@@ -207,6 +213,8 @@ const translations = {
         conectp: 'Aby otrzymać kod bezpieczeństwa, wprowadź adres e-mail swojego konta Cybernet Games',
         openss: 'Kontynuować',
         loginbutton: 'powrót do strony logowania',
+        successMessage: 'Udany!',
+        fillFields: 'Proszę wypełnić wszystkie pola.',
     },
     ptBr: {
         greeting: "Jogo",
@@ -259,6 +267,8 @@ const translations = {
         conectp: 'Para receber um código de segurança, insira o endereço de e-mail da sua conta Cybernet Games',
         openss: 'continuar',
         loginbutton: 'retornar para a página de login',
+        successMessage: 'Bem-sucedida!',
+        fillFields: 'Por favor, preencha todos os campos.',
     },
     fr: {
         greeting: "Jeu",
@@ -311,6 +321,8 @@ const translations = {
         conectp: `Pour recevoir un code de sécurité, veuillez saisir l'adresse e-mail de votre compte Cypernet Games`,
         openss: 'continuer',
         loginbutton: 'retour à la page de connexion',
+        successMessage: 'Réussie!',
+        fillFields: 'Veuillez remplir tous les champs.',
     },
     es: {
         greeting: "Juego",
@@ -363,6 +375,8 @@ const translations = {
         conectp: 'Para recibir un código de seguridad, ingrese la dirección de correo electrónico de su cuenta de Cypernet Games',
         openss: 'continuar',
         loginbutton: 'volver a la página de inicio de sesión',
+        successMessage: 'Exitosa!',
+        fillFields: 'Por favor, rellene todos los campos.',
     },
     esMx: {
         greeting: "Juego",
@@ -415,6 +429,8 @@ const translations = {
         conectp: 'Para recibir un código de seguridad, ingrese la dirección de correo electrónico de su cuenta de Cypernet Games',
         openss: 'continuar',
         loginbutton: 'volver a la página de inicio de sesión',
+        successMessage: 'Exitosa!',
+        fillFields: 'Por favor, rellene todos los campos.',
     },
     it: {
         greeting: "gioco",
@@ -467,6 +483,8 @@ const translations = {
         conectp: `Per ricevere un codice di sicurezza, inserisci l'indirizzo email del tuo account Cybernet Games`,
         openss: 'continuare',
         loginbutton: 'torna alla pagina di accesso',
+        successMessage: 'Riuscita!',
+        fillFields: 'Si prega di compilare tutti i campi.',
     },
     ja: {
         greeting: "ゲーム",
@@ -519,6 +537,8 @@ const translations = {
         conectp: 'セキュリティコードを受け取るには、Cypernet Gamesアカウントのメールアドレスを入力してください。',
         openss: '続く',
         loginbutton: 'ログインページに戻る',
+        successMessage: '成功！',
+        fillFields: 'すべてのフィールドに入力してください。',
     },
     ko: {
         greeting: "게임",
@@ -571,6 +591,8 @@ const translations = {
         conectp: '보안 코드를 받으려면 Cypernet Games 계정의 이메일 주소를 입력하세요.',
         openss: '계속하다',
         loginbutton: '로그인 페이지로 돌아가기',
+        successMessage: '성공적인!',
+        fillFields: '모든 항목을 입력해 주세요.',
     },
     zhCn: {
         greeting: "游戏",
@@ -623,6 +645,8 @@ const translations = {
         conectp: '要接收安全代码，请输入您的 Cypernet Games 帐户的电子邮件地址',
         openss: '继续',
         loginbutton: '返回登录页面',
+        successMessage: '成功的！!',
+        fillFields: '请填写所有字段。',
     },
     zhtw: {
         greeting: "游戏",
@@ -675,6 +699,8 @@ const translations = {
         conectp: '要接收安全代码，请输入您的 Cypernet Games 帐户的电子邮件地址',
         openss: '继续',
         loginbutton: '返回登录页面',
+        successMessage: '成功的！',
+        fillFields: '请填写所有字段。',
     },
     ar: {
         greeting: "لعبة",
@@ -727,6 +753,8 @@ const translations = {
         conectp: 'لتلقي رمز الأمان، يرجى إدخال عنوان البريد الإلكتروني لحساب Cypernet Games الخاص بك',
         openss: 'يكمل',
         loginbutton: 'العودة إلى صفحة تسجيل الدخول',
+        successMessage: 'ناجح!',
+        fillFields: 'يرجى ملء جميع الحقول.',
     }
 };
 
@@ -804,11 +832,7 @@ function updateUI() {
     document.getElementById('recovery').innerHTML = translations[currentLanguage].recovery;
     document.getElementById('createAccount').innerHTML = translations[currentLanguage].create;
     document.getElementById('popuptitle').innerHTML = translations[currentLanguage].popuptitle;
-    document.getElementById('option').innerHTML = translations[currentLanguage].option;
     document.getElementById('mailinput').placeholder = translations[currentLanguage].mailinput;
-    document.getElementById('nameinput').placeholder = translations[currentLanguage].nameinput;
-    document.getElementById('surnameinput').placeholder =translations[currentLanguage].surnameinput;
-    document.getElementById('returnname').placeholder = translations[currentLanguage].returnname;
     document.getElementById('radiopteg').innerHTML = translations[currentLanguage].radiop;
     document.getElementById('radiopp').innerHTML = translations[currentLanguage].radiopp;
     document.getElementsByClassName('radiolink').innerHTML = translations[currentLanguage].radiolink;
@@ -822,5 +846,6 @@ function updateUI() {
     document.getElementById('textpaswordss').placeholder = translations[currentLanguage].returninput;
     document.getElementById('connectp').innerHTML = translations[currentLanguage].connectp;
     document.getElementById('surnameinput').placeholder = translations[currentLanguage].surnameinput;
+    
 }
 window.onload = updateUI;

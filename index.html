@@ -157,28 +157,20 @@
         </div>
         <h2 id="popuptitle"></h2>
         <a class="close" href="#" id="closebtn">&times;</a>
-        <div class="contents">
-          <select id="countrySelect">
-            <option value="" id="option"></option>
-          </select>
+        <form class="contents">
           <input type="text" id="mailinput" class="create-input">
-          <div class="d-flex">
-            <input type="text" id="nameinput" class="nameinput">
-            <input type="text" class="surnameinput" id="surnameinput">
-          </div>
-          <input type="text" id="returnname" class="create-input">
           <input type="password" id="textpasswordss" class="create-input">
           <div class="d-flex" style="width: 72%;">
-            <input type="radio" class="radio-input">
+            <input type="radio" class="radio-input" id="radionfirst" name="options" value="option1">
             <p style="color: #fff; text-align: left; margin-left: 10px;" id="radiopteg"></p>
           </div>
           <div class="d-flex" style="width: 72%;">
-            <input type="radio" class="radio-input">
+            <input type="radio" class="radio-input" id="radiosecond" name="options" value="option2">
             <p style="color: #fff; text-align: left; margin-left: 10px;" id="radiopp"><a href="#" class="radiolink"></a>
             </p>
           </div>
           <button type="submit" class="login-button" id="submitbtn" style="width: 72%; border-radius:5px;"></button>
-        </div>
+        </form>
       </div>
     </div>
     <div id="popup2" class="overlay">
@@ -193,7 +185,7 @@
         <a class="close" href="#" id="closebtns">&times;</a>
         <div class="contents">
           <p style="color: #fff; text-align: left; width: 70%; margin: auto; margin-top: 25px;" class="conectp" id="conectp"></p>
-          <form class="login-form" style="margin-top: 20px;">
+          <form class="login-forms" style="margin-top: 20px;">
             <input id="textgmails" type="email">
             <button class="login-button" id="openss"></button>
             <button class="login-button" id="loginbutton"></button>
@@ -208,6 +200,7 @@
   <script src="./script/modal.js"></script>
   <script src="./script/api.js"></script>
   <script src="./script/navbar.js"></script>
+  <script src="./script/form.js"></script>
 </body>
 </html>
 <!-- Если у вас возникли проблемы с написанием внутреннего кода, вы можете написать по адресу «T.me/Shakkhzodbee». -->

@@ -12,10 +12,11 @@
 <body class="p-pl2">
   <nav>
     <div>
-      <i class="fa fa-bars" id="bars"></i>
+      <i class="fa fa-bars" id="bars" style="margin-top: 10px;"></i>
     </div>
-    <div>
-      <p class="down">salom<i class="fa fa-chevron-circle-down" aria-hidden="true"></i></p>
+    <div style="display: flex;" class="down">
+      <p id="changes" style="font-size: 22px;"></p><i class="fa fa-chevron-down" aria-hidden="true"
+        style="margin-top: 6px; margin-left: 5px;"></i>
     </div>
   </nav>
   <div class="sub">
@@ -23,21 +24,26 @@
       <i id="faTimes" class="fa fa-times" aria-hidden="true"></i>
     </div>
     <br>
-    <span id="igri">IGra <i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+    <div style="display: flex;" id="igri">
+      <span class="greeting"></span><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 5px;"></i>
+    </div>
     <ul id="myList">
-      <li>farewell</li>
-      <li>farewel2</li>
+      <li class="farewell"></li>
+      <li class="fravel2"></li>
     </ul>
     <br>
-    <span id="font">sobshestvo</span>
+    <div id="font" style="display: flex;">
+      <span class="community"></span><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 5px;"></i>
+    </div>
     <ul id="myUl">
-      <li>sa;</li>
-      <li>erg</li>
-      <li>eg</li>
-      <li>erge</li>
+      <li class="forum"></li>
+      <li class="discord"></li>
+      <li class="material"></li>
+      <li class="kankulator"></li>
+      <li class="buket"></li>
     </ul>
-    <ul><span>Account</span></ul>
-    <button>Buy</button>
+    <li id="nav-account" class="accaunt"></li>
+    <button id="nav-buy" class="buy"></button>
   </div>
   <div class="down-info">
     <div class="times-clas">
@@ -221,6 +227,3 @@
 </body>
 
 </html>
-
-
-<!-- <i class="fa fa-times" aria-hidden="true"></i> -->

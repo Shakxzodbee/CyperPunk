@@ -739,20 +739,32 @@ function setLanguage(lang) {
 
 function updateUI() {
     document.getElementById('greeting').innerText = translations[currentLanguage].greeting;
+    document.querySelector('.greeting').innerText = translations[currentLanguage].greeting;
     document.getElementById('farewell').innerHTML = translations[currentLanguage].fravel;
+    document.querySelector('.farewell').innerHTML = translations[currentLanguage].fravel;
     document.getElementById('fravel2').innerHTML = translations[currentLanguage].fravel2;
+    document.querySelector('.fravel2').innerHTML = translations[currentLanguage].fravel2;
     document.getElementById('community').innerHTML = translations[currentLanguage].community;
+    document.querySelector('.community').innerHTML = translations[currentLanguage].community;
     document.getElementById('forum').innerHTML = translations[currentLanguage].forum;
+    document.querySelector('.forum').innerHTML = translations[currentLanguage].forum;
     document.getElementById('discord').innerHTML = translations[currentLanguage].discord;
+    document.querySelector('.discord').innerHTML = translations[currentLanguage].discord;
     document.getElementById('material').innerHTML = translations[currentLanguage].material;
+    document.querySelector('.material').innerHTML = translations[currentLanguage].material;
     document.getElementById('kankulator').innerHTML = translations[currentLanguage].kankulator;
+    document.querySelector('.kankulator').innerHTML = translations[currentLanguage].kankulator;
     document.getElementById('buket').innerHTML = translations[currentLanguage].buket;
+    document.querySelector('.buket').innerHTML = translations[currentLanguage].buket;
     document.getElementById('accaunt').innerHTML = translations[currentLanguage].accaunt;
+    document.querySelector('.accaunt').innerHTML = translations[currentLanguage].accaunt;
     document.getElementById('buy').innerHTML = translations[currentLanguage].buy;
+    document.querySelector('.buy').innerHTML = translations[currentLanguage].buy;
     document.getElementById('sale').innerHTML = translations[currentLanguage].sale;
     document.getElementById('buys').innerHTML = translations[currentLanguage].buys;
     document.getElementById('treyler').innerHTML = translations[currentLanguage].treyler;
     document.getElementById('change').innerHTML = translations[currentLanguage].change;
+    document.getElementById('changes').innerHTML = translations[currentLanguage].change;
     document.getElementById('en').innerHTML = translations[currentLanguage].en;
     document.getElementById('ru').innerHTML = translations[currentLanguage].ru;
     document.getElementById('de').innerHTML = translations[currentLanguage].de;

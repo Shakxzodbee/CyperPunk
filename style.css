@@ -6309,7 +6309,7 @@ nav{
     height: 100px;
     color:#fff;
 }
-@media (max-width:1199px) {
+@media (max-width:1200px) {
     #change{
         display: none;
     }
@@ -6323,7 +6323,19 @@ nav{
 }
 .sub{
     display: none;
-    color:#fff
+    color:#fff;
+    width: 70%;
+    margin: auto;
+}
+.sub li{
+    text-decoration: none;
+    list-style: none;
+}
+#faTimes{
+    font-size: 20px;
+}
+#faTimes:hover{
+    color:#06D85F;
 }
 .hidden {
     display: none;

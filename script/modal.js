@@ -36,7 +36,6 @@ let btn = document.getElementById("myBtns")
   function closeModal() {
       modal.style.display = "none"
       headerLogo.style.display = 'block'
-
   }
   recovery.onclick = function (){
     modal.style.display = "none"
@@ -44,8 +43,6 @@ let btn = document.getElementById("myBtns")
   create.onclick = function (){
     modal.style.display = "none"
   }
-
-
   create.addEventListener('click', ()=>{
     headerLogo.style.display = 'none';
   })
@@ -58,9 +55,6 @@ let btn = document.getElementById("myBtns")
   spans.addEventListener('click', ()=>{
     headerLogo.style.display = 'block'
   })
-
-
-
   ateg.addEventListener('click',()=>{
     headerLogo.display.style = 'block'
   })

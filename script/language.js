@@ -846,6 +846,5 @@ function updateUI() {
     document.getElementById('textpaswordss').placeholder = translations[currentLanguage].returninput;
     document.getElementById('connectp').innerHTML = translations[currentLanguage].connectp;
     document.getElementById('surnameinput').placeholder = translations[currentLanguage].surnameinput;
-    
 }
 window.onload = updateUI;

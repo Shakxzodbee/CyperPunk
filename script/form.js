@@ -16,7 +16,8 @@ document.getElementById('openss').onclick = function() {
     const email = document.getElementById('textgmails').value;
 
     if (email) {
-        alert('Successful');
+        const selectedLang = this.value;
+        alert(translations[selectedLang]);
         document.getElementById('textgmails').value = '';
     } else {
         alert('Iltimos, barcha maydonlarni to\'ldiring.');

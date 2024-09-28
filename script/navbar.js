@@ -1,13 +1,18 @@
 let navAccount = document.querySelector('#nav-account')
 let downTimes = document.querySelector('#downTimes')
 let downInfo = document.querySelector('.down-info')
+const toggleigri = document.getElementById('igri')
+const toggleSpan = document.getElementById('font')
 let exitTimes = document.querySelector('#faTimes')
+const myList = document.getElementById('myList')
+const itemList = document.getElementById('myUl')
 let navBuy = document.querySelector('#nav-buy')
 let newmodal = document.querySelector('.modal')
 let header = document.querySelector('header')
 let down = document.querySelector('.down')
 let bars = document.querySelector('#bars')
 let sub = document.querySelector('.sub')
+
 bars.onclick = function () {
     sub.style.display = "block"
     header.style.display = 'none'
@@ -51,14 +56,6 @@ navBuy.addEventListener('click', () => {
 navBuy.onclick = function () {
     newmodal.style.display = "block"
 }
-document.getElementById('igri').addEventListener('click', function () {
-    const list = document.getElementById('myList');
-    list.classList.toggle('hidden');
-});
-document.getElementById('font').addEventListener('click', function () {
-    const list = document.getElementById('myUl');
-    list.classList.toggle('hidden');
-});
 window.onresize = function () {
     if (downInfo.style.display === 'block' || sub.style.display === 'block' && window.innerWidth > 1200) {
         downInfo.style.display = 'none'
@@ -67,3 +64,20 @@ window.onresize = function () {
         location.reload();
     }
 }
+
+toggleSpan.addEventListener('click', function() {
+    if (itemList.classList.contains('hidden')) {
+        itemList.classList.remove('hidden');
+    } else {
+        itemList.classList.add('hidden');
+    }
+});
+
+
+toggleigri.addEventListener('click', function() {
+    if (myList.classList.contains('hidden')) {
+        myList.classList.remove('hidden');
+    } else {
+        myList.classList.add('hidden');
+    }
+});

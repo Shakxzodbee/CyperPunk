@@ -19,39 +19,49 @@ let btn = document.getElementById("myBtns")
     modal.style.display = "block"
     popup.style.display = "none"
   }
+  
   btn.onclick = function () {
       modal.style.display = "block"
   }
+  
   secondbtn.onclick = function (){
     modal.style.display = 'block'
   }
+  
   treyler.onclick = function (){
     modal.style.display = 'block'
   }
+  
   span.onclick = function () {
       modal.style.display = "none"
       headerLogo.style.display = 'block'
   }
-
+  
   function closeModal() {
       modal.style.display = "none"
       headerLogo.style.display = 'block'
   }
+  
   recovery.onclick = function (){
     modal.style.display = "none"
   }
+  
   create.onclick = function (){
     modal.style.display = "none"
   }
+  
   create.addEventListener('click', ()=>{
     headerLogo.style.display = 'none';
   })
+  
   spanss.addEventListener('click', ()=>{
     headerLogo.style.display = 'block'
   })
+  
   recoveryButton.addEventListener('click', () => {
     headerLogo.style.display = 'none';
   });
+  
   spans.addEventListener('click', ()=>{
     headerLogo.style.display = 'block'
   })

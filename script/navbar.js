@@ -64,7 +64,6 @@ window.onresize = function () {
         location.reload();
     }
 }
-
 toggleSpan.addEventListener('click', function() {
     if (itemList.classList.contains('hidden')) {
         itemList.classList.remove('hidden');
@@ -72,8 +71,6 @@ toggleSpan.addEventListener('click', function() {
         itemList.classList.add('hidden');
     }
 });
-
-
 toggleigri.addEventListener('click', function() {
     if (myList.classList.contains('hidden')) {
         myList.classList.remove('hidden');

@@ -5,25 +5,23 @@ document.querySelector('.login-form').onsubmit = function(event) {
     const email = document.getElementById('textgmail').value;
 
     if (name && email) {
-        alert('Successful');
+        alert(translations[currentLanguage].successMessage);
         document.getElementById('textpassword').value = '';
         document.getElementById('textgmail').value = '';
     } else {
-        alert('Iltimos, barcha maydonlarni to\'ldiring.');
+        alert(translations[currentLanguage].fillFields);
     }
 };
 document.getElementById('openss').onclick = function() {
     const email = document.getElementById('textgmails').value;
 
     if (email) {
-        const selectedLang = this.value;
-        alert(translations[selectedLang]);
+        alert(translations[currentLanguage].successMessage);
         document.getElementById('textgmails').value = '';
     } else {
-        alert('Iltimos, barcha maydonlarni to\'ldiring.');
+        alert(translations[currentLanguage].fillFields);
     }
 };
-
 document.querySelector('#submitbtn').onclick = function(event) {
     event.preventDefault();
 
@@ -32,11 +30,11 @@ document.querySelector('#submitbtn').onclick = function(event) {
     const radioInput = document.querySelector('input[name="options"]:checked');
 
     if (name && email && radioInput) {
-        alert('Successful');
+        alert(translations[currentLanguage].successMessage);
         document.getElementById('mailinput').value = '';
         document.getElementById('textpasswordss').value = '';
         radioInput.checked = false; 
     } else {
-        alert('Iltimos, barcha maydonlarni to\'ldiring.');
+        alert(translations[currentLanguage].fillFields);
     }
 };

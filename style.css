@@ -6328,3 +6328,7 @@ nav{
 .hidden {
     display: none;
 }
+.down-info{
+    display: none;
+    color:#fff;
+}

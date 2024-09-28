@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +7,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./style.css">
 </head>
-
 <body class="p-pl2">
   <nav>
     <div>
@@ -20,30 +18,32 @@
     </div>
   </nav>
   <div class="sub">
-    <div class="times-clas">
-      <i id="faTimes" class="fa fa-times" aria-hidden="true"></i>
+    <div class="times-class">
+      <i id="faTimes" class="fa fa-times" aria-hidden="true" style="color:#00f0ff;"></i>
     </div>
     <br>
-    <div style="display: flex;" id="igri">
+    <div id="igri">
       <span class="greeting"></span><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 5px;"></i>
     </div>
     <ul id="myList">
-      <li class="farewell"></li>
-      <li class="fravel2"></li>
+      <li><a href="#" class="farewell"></a></li>
+      <li><a href="#"><a href="#" class="fravel2"></a></a></li>
     </ul>
     <br>
-    <div id="font" style="display: flex;">
+    <div id="font">
       <span class="community"></span><i class="fa fa-chevron-down" aria-hidden="true" style="margin-left: 5px;"></i>
     </div>
+    <br>
     <ul id="myUl">
-      <li class="forum"></li>
-      <li class="discord"></li>
-      <li class="material"></li>
-      <li class="kankulator"></li>
-      <li class="buket"></li>
+      <li><a href="#" class="forum"></a></li>
+      <li><a href="#" class="discord"></a></li>
+      <li><a href="#" class="material"></a></li>
+      <li><a href="#"  class="kankulator"></a></li>
+      <li><a href="#" class="buket"></a></li>
     </ul>
     <li id="nav-account" class="accaunt"></li>
-    <button id="nav-buy" class="buy"></button>
+    <br>
+    <button id="nav-buy" class="buy cp-btn cp-btn--yellow h6" href="https://youtu.be/FO14X9YAeps?si=Tzao0AwNI27w5o1K" href="#"></button>
   </div>
   <div class="down-info">
     <div class="times-clas">
@@ -52,24 +52,23 @@
     <br>
     <div class="down-content">
       <ul>
-        <li onclick="setLanguage('en')"><a href="#" class="" id="en">rtsh</a></li>
-        <li onclick="setLanguage('ru')"><a href="#" class="active" id="ru">rth</a></li>
-        <li onclick="setLanguage('de')"><a href="#" class="" id="de">rt</a></li>
-        <li onclick="setLanguage('pl')"><a href="#" class="" id="po">rth</a></li>
-        <li onclick="setLanguage('ptBr')"><a href="#" class="" id="pr">rth</a></li>
-        <li onclick="setLanguage('fr')"><a href="#" class="" id="fr">rth</a></li>
-        <li onclick="setLanguage('es')"><a href="#" class="" id="es">rth</a></li>
-        <li onclick="setLanguage('esMx')"><a href="#" class="" id="esp">rth</a></li>
-        <li onclick="setLanguage('it')"><a href="#" class="" id="it">rth</a></li>
-        <li onclick="setLanguage('ja')"><a href="#" class="" id="ja">trh</a></li>
-        <li onclick="setLanguage('ko')"><a href="#" class="" id="ko">rth</a></li>
-        <li onclick="setLanguage('zhCn')"><a href="#" class="" id="ch">rth</a></li>
-        <li onclick="setLanguage('zhTw')"><a href="#" class="" id="chs">rth</a></li>
-        <li onclick="setLanguage('ar')"><a href="#" class="" id="ar">rth</a></li>
+        <li onclick="setLanguage('en')"><a href="#" class="" id="en"></a></li>
+        <li onclick="setLanguage('ru')"><a href="#" class="active" id="ru"></a></li>
+        <li onclick="setLanguage('de')"><a href="#" class="" id="de"></a></li>
+        <li onclick="setLanguage('pl')"><a href="#" class="" id="po"></a></li>
+        <li onclick="setLanguage('ptBr')"><a href="#" class="" id="pr"></a></li>
+        <li onclick="setLanguage('fr')"><a href="#" class="" id="fr"></a></li>
+        <li onclick="setLanguage('es')"><a href="#" class="" id="es"></a></li>
+        <li onclick="setLanguage('esMx')"><a href="#" class="" id="esp"></a></li>
+        <li onclick="setLanguage('it')"><a href="#" class="" id="it"></a></li>
+        <li onclick="setLanguage('ja')"><a href="#" class="" id="ja"></a></li>
+        <li onclick="setLanguage('ko')"><a href="#" class="" id="ko"></a></li>
+        <li onclick="setLanguage('zhCn')"><a href="#" class="" id="ch"></a></li>
+        <li onclick="setLanguage('zhTw')"><a href="#" class="" id="chs"></a></li>
+        <li onclick="setLanguage('ar')"><a href="#" class="" id="ar"></a></li>
       </ul>
     </div>
   </div>
-
   <header class="header" id="header">
     <div class="header-top">
       <a href="#" class="header-top__logo"><img class="header-top__logo-yellow" src="https://i.imgur.com/j3Za9uB.png"
@@ -97,20 +96,20 @@
           <li class="menu-item" id="myBtns"><a href="#" id="accaunt"></a></li>
           <li class="menu-item menu-item-lang"><span class="menu-sub" id="change"></span>
             <ul class="menu-sub-list">
-              <li onclick="setLanguage('en')"><a href="#" class="" id="en"></a></li>
-              <li onclick="setLanguage('ru')"><a href="#" class="active" id="ru"></a></li>
-              <li onclick="setLanguage('de')"><a href="#" class="" id="de"></a></li>
-              <li onclick="setLanguage('pl')"><a href="#" class="" id="po"></a></li>
-              <li onclick="setLanguage('ptBr')"><a href="#" class="" id="pr"></a></li>
-              <li onclick="setLanguage('fr')"><a href="#" class="" id="fr"></a></li>
-              <li onclick="setLanguage('es')"><a href="#" class="" id="es"></a></li>
-              <li onclick="setLanguage('esMx')"><a href="#" class="" id="esp"></a></li>
-              <li onclick="setLanguage('it')"><a href="#" class="" id="it"></a></li>
-              <li onclick="setLanguage('ja')"><a href="#" class="" id="ja"></a></li>
-              <li onclick="setLanguage('ko')"><a href="#" class="" id="ko"></a></li>
-              <li onclick="setLanguage('zhCn')"><a href="#" class="" id="ch"></a></li>
-              <li onclick="setLanguage('zhTw')"><a href="#" class="" id="chs"></a></li>
-              <li onclick="setLanguage('ar')"><a href="#" class="" id="ar"></a></li>
+              <li onclick="setLanguage('en')"><a href="#" class="" id="enn"></a></li>
+              <li onclick="setLanguage('ru')"><a href="#" class="active" id="rus"></a></li>
+              <li onclick="setLanguage('de')"><a href="#" class="" id="deu"></a></li>
+              <li onclick="setLanguage('pl')"><a href="#" class="" id="pol"></a></li>
+              <li onclick="setLanguage('ptBr')"><a href="#" class="" id="prr"></a></li>
+              <li onclick="setLanguage('fr')"><a href="#" class="" id="fra"></a></li>
+              <li onclick="setLanguage('es')"><a href="#" class="" id="ess"></a></li>
+              <li onclick="setLanguage('esMx')"><a href="#" class="" id="esps"></a></li>
+              <li onclick="setLanguage('it')"><a href="#" class="" id="ita"></a></li>
+              <li onclick="setLanguage('ja')"><a href="#" class="" id="jap"></a></li>
+              <li onclick="setLanguage('ko')"><a href="#" class="" id="kor"></a></li>
+              <li onclick="setLanguage('zhCn')"><a href="#" class="" id="chi"></a></li>
+              <li onclick="setLanguage('zhTw')"><a href="#" class="" id="chss"></a></li>
+              <li onclick="setLanguage('ar')"><a href="#" class="" id="ara"></a></li>
             </ul>
           </li>
           <li class="menu-item menu-item-buy"><a href="#" id="buy"></a></li>
@@ -129,8 +128,7 @@
       <h1 class="header__title" id="sale"></h1>
       <div class="header__buttons">
         <a class="cp-btn cp-btn--yellow-rotated h6" href="#" id="myBtnss"><span id="buys"></span></a>
-        <a class="cp-btn cp-btn--yellow h6" href="https://youtu.be/FO14X9YAeps?si=Tzao0AwNI27w5o1K" id="mybtn"><span
-            id="treyler"></span></a>
+        <a class="cp-btn cp-btn--yellow h6" href="https://youtu.be/FO14X9YAeps?si=Tzao0AwNI27w5o1K" id="mybtn"><span id="treyler"></span></a>
       </div>
     </div>
     <div id="myModal" class="modal">
@@ -225,5 +223,4 @@
   <script src="./script/api.js"></script>
   <script src="./script/navbar.js"></script>
 </body>
-
 </html>

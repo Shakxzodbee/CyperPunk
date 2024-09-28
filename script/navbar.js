@@ -14,26 +14,26 @@ bars.onclick = function () {
     bars.style.display = 'none'
     down.style.display = 'none'
 }
-exitTimes.addEventListener('click', ()=>{
+exitTimes.addEventListener('click', () => {
     header.style.display = 'block'
     bars.style.display = 'block'
     down.style.display = 'flex'
     sub.style.display = "none"
 })
-down.addEventListener('click',()=>{
+down.addEventListener('click', () => {
     downInfo.style.display = 'block'
     header.style.display = 'none'
     bars.style.display = 'none'
     down.style.display = 'none'
 
 })
-downTimes.addEventListener('click' , ()=>{
+downTimes.addEventListener('click', () => {
     downInfo.style.display = 'none'
     header.style.display = 'block'
     bars.style.display = 'block'
     down.style.display = 'flex'
 })
-navAccount.addEventListener('click',()=>{
+navAccount.addEventListener('click', () => {
     header.style.display = 'block'
     sub.style.display = 'none'
     bars.style.display = 'block'
@@ -42,7 +42,7 @@ navAccount.addEventListener('click',()=>{
 navAccount.onclick = function () {
     newmodal.style.display = "block"
 }
-navBuy.addEventListener('click',()=>{
+navBuy.addEventListener('click', () => {
     header.style.display = 'block'
     sub.style.display = 'none'
     bars.style.display = 'block'
@@ -59,8 +59,8 @@ document.getElementById('font').addEventListener('click', function () {
     const list = document.getElementById('myUl');
     list.classList.toggle('hidden');
 });
-window.onresize = function(){
-    if(downInfo.style.display === 'block' || sub.style.display === 'block' && window.innerWidth > 1200){
+window.onresize = function () {
+    if (downInfo.style.display === 'block' || sub.style.display === 'block' && window.innerWidth > 1200) {
         downInfo.style.display = 'none'
         sub.style.display = 'none'
         header.style.display = 'flex'

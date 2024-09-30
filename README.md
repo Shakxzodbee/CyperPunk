@@ -4,11 +4,11 @@
 
 </a>
 
-## Ishlatilgan Tillari
+## Used dev language
 - HTML/CSS
 - JavaScript
 
-## things done
+## Things done
 
 - Multilingual page
 - Responsiv
@@ -17,14 +17,14 @@
 
 ## Social Media Account
 
-<a href="https://t.me/shakxzodbek" style="display: inline-flex; align-items: center; background-color: #0088cc; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
-    Telegram account
+-<a href="https://t.me/shakxzodbek" style="display: inline-flex; align-items: center; background-color: #0088cc; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
+    Telegram 
 </a>
 </br>
-<a href="https://instagram.com/shakxzodbee" style="display: inline-flex; align-items: center; background-color: #0088cc; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
-    Instagram account
+-<a href="https://instagram.com/shakxzodbee" style="display: inline-flex; align-items: center; background-color: #0088cc; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
+    Instagram 
 </a>
 </br>
-<a href="https://github.com/Shakxzodbee" style="display: inline-flex; align-items: center; background-color: #0088cc; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
-    Github account
+-<a href="https://github.com/Shakxzodbee" style="display: inline-flex; align-items: center; background-color: #0088cc; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
+    Github 
 </a>

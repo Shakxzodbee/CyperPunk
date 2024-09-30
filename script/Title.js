@@ -1,4 +1,4 @@
 function setWebsiteTitle(newTitle) {
     document.title = newTitle;
 }
-setWebsiteTitle("Cypernet 2077");
+setWebsiteTitle("CyperPunk 2077");

@@ -14,7 +14,7 @@ let modal = document.getElementById('myModal');
 let popup = document.getElementById('popup2');
 let treyler = document.getElementById('buy');
 let btn = document.getElementById('myBtns');
-
+let body = document.querySelector('body');
 
 returnbtn.onclick = function () {
   modal.style.display = 'block';
